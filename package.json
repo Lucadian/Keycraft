@@ -1,0 +1,19 @@
+{
+  "name": "keycraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./main/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucadian/Keycraft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucadian/Keycraft/issues"
+  },
+  "homepage": "https://github.com/Lucadian/Keycraft#readme"
+}
