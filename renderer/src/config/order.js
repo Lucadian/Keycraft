@@ -1,0 +1,55 @@
+export { order }
+
+
+let order = {
+    移动:{
+        key:'[CmdMove]',
+        val:'M',
+        ico:'1,1'
+    },
+    停止:{
+        key:'[CmdAttack]',
+        val:'S',
+        ico:'1,2'
+    },
+    保持:{
+        key:'[CmdHoldPos]',
+        val:'G',
+        ico:'1,3'
+    },
+    攻击:{
+        key:'[CmdAttack]',
+        val:'A',
+        ico:'1,4'
+    },
+    巡逻:{
+        key:'[CmdPatrol]',
+        val:'T',
+        ico:'1,5'
+    },
+    攻击地面:{
+        key:'[CmdAttackGround]',
+        val:'X',
+        ico:'1,6'
+    },
+    选择技能:{
+        key:'[CmdSelectSkill]',
+        val:'V',
+        ico:'1,7'
+    },
+    修理:{
+        key:'[Arep]',
+        val:'E',
+        ico:'1,8'
+    },
+    采集:{
+        key:'[Ahar]',
+        val:'L',
+        ico:'1,9'
+    },
+    互动:{
+        key:'[Anei]',
+        val:'F',
+        ico:'1,10'
+    }
+}

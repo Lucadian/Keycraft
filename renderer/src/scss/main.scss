@@ -4,12 +4,12 @@ main{
   //background-color: rgba(150,255,255,.2);
   div.box{
     position: absolute;
-    //background-color: rgba(150,255,255,.2);
     h2.subtitle{
       letter-spacing: 6px;
       margin: 0;
       transform: translateY(-60px) translateX(-7px);
       position: absolute;
+      min-width: 200px;
     }
     ul{
       display: flex;
@@ -21,15 +21,13 @@ main{
         div{
           width: 70px;
           height: 70px;
-          line-height: 70px;
-          text-align: center;
           background-color: red;
         }
       }
     }
   }
 }
-div#units{
+div#unit{
   max-width:320px;
   left: 60px;top: 123px;
 }
@@ -41,6 +39,14 @@ div#archs{
 div#buttons{
   max-width:320px;
   left: 444px;top: 124px;
+  div.button{
+    margin: 4px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image:url('../../image/icon_human.png');
+    background-color: blue;
+  }
 }
 div#input{
   width:300px;height: 51px;

@@ -169,16 +169,16 @@ Hotkey=A
 [Afla]
 Hotkey=F
 
-//peasant
+//peasant 农民
 [hpea]
 Hotkey=Q
 
-// 战斗集结 (农民变为民兵)
+// 民兵 (农民自身技能，变为民兵)
 [Amil]
 Hotkey=C
 Unhotkey=W
 
-// 战斗警钟 (将附近农民变为民兵)
+// 警钟 (将附近农民变为民兵)
 [Amic]
 Hotkey=F
 Unhotkey=D
@@ -262,7 +262,7 @@ Hotkey=M,M,M
 [Rhgb]
 Hotkey=B
 
-//improved lumber harvesting upgrades 方木工升级
+//improved lumber harvesting upgrades 伐木工升级
 [Rhlh]
 Hotkey=Q,Q
 
@@ -272,7 +272,7 @@ Hotkey=D
 
 //动物作战升级(骑士和狮鹫生命+100)
 [Rhan]
-Hotkey=A
+Hotkey=X
 
 //牧师训练升级
 [Rhpt]
@@ -318,7 +318,7 @@ Hotkey=S
 [Rhcd]
 Hotkey=C
 
-// 分离叶片升级
+// 裂甲之刃升级
 [Rhsb]
 Hotkey=B
 
@@ -342,10 +342,6 @@ Hotkey=B
 [hbla]
 Hotkey=S
 
-//城堡
-[hcas]
-Hotkey=U
-
 //农场
 [hhou]
 Hotkey=F
@@ -356,19 +352,19 @@ Hotkey=G
 
 //炮塔
 [hctw]
-Hotkey=C
+Hotkey=E
 
 //箭塔
 [hgtw]
-Hotkey=G
+Hotkey=Q
 
 //哨塔
 [hwtw]
-Hotkey=F
+Hotkey=T
 
 //神秘塔
 [hatw]
-Hotkey=N
+Hotkey=R
 
 // reveal on arcane tower 反隐升级
 [AHta]
@@ -382,8 +378,12 @@ Hotkey=V
 [hlum]
 Hotkey=L
 
-//keep
+//要塞
 [hkee]
+Hotkey=U
+
+//城堡
+[hcas]
 Hotkey=U
 
 //城镇大厅
@@ -428,16 +428,16 @@ Hotkey=A
 Hotkey=B
 Researchhotkey=B
 
-// Summon Water Elemental 召唤水元素
+// Summon Water Elemental 水元素
 [AHwe]
 Hotkey=W
 Researchhotkey=W
 
-// Brilliance Aura 智力光环
+// Brilliance Aura 辉煌光环
 [AHab]
 Researchhotkey=R
 
-// Mass Teleport 传送
+// Mass Teleport 群体传送
 [AHmt]
 Hotkey=T
 Researchhotkey=T
@@ -460,7 +460,7 @@ Researchhotkey=E
 [AHbh]
 Researchhotkey=R
 
-// 天生下凡
+// 天神下凡
 [AHav]
 Hotkey=V
 Unhotkey=V
@@ -481,7 +481,7 @@ Hotkey=E
 Unhotkey=D
 Researchhotkey=E
 
-// 防御光环
+// 专注光环
 [AHad]
 Researchhotkey=R
 
