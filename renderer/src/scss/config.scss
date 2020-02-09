@@ -1,11 +1,26 @@
 html,body{
   padding: 0;margin: 0;
   background-color: black;
+  user-select: none;
 }
 #app{
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
   width: 1250px;height: 880px;
   margin: 0 auto;
   background-image: url("../../image/mainBackground.jpg");
   background-size: cover;
   background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #ffd42b;
+  text-shadow: 0 0 4px black,0 0 2px black;
+  cursor: url("../../image/cursor_small.png"),auto;
 }
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@import 'aside.scss';
+@import 'main.scss';

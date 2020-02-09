@@ -1,0 +1,72 @@
+aside{
+  width: 375px;
+  position: relative;
+
+}
+h2#title{
+  text-align: center;
+  line-height: 180px;
+  margin: 0;
+  height: 180px;
+  font-size: 26px;
+  text-shadow: 0 0 8px black,0 0 4px black;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+ul#camp{
+  width: 207px;
+  margin: 0 auto;
+  li{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 4px black,0 0 2px black;
+    letter-spacing: 2px;
+    height: 55px;
+    line-height: 55px;
+    margin: 5px 0;
+    background-image: url("../../image/btnCamp_normal.png");
+    background-size: cover;
+    &.actived{
+      background-image: url("../../image/btnCamp_actived.png");
+    }
+
+    &:hover:not(.actived){
+      background-image: url("../../image/btnCamp_hover.png");
+    }
+    &:active:not(.actived){
+      background-image: url("../../image/btnCamp_active.png");
+    }
+  }
+}
+div.sideBtn{
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 42px;
+  display: block;
+  border: 0;
+  width: 132px;height: 43px;
+  margin: 0 auto;
+  transform: translateX(-1px);
+}
+div#option{
+  margin-top: 168px;
+  background-image: url("../../image/btnOption_normal.png");
+  &:hover{
+    background-image: url("../../image/btnOption_hover.png");
+  }
+  &:active{
+    background-image: url("../../image/btnOption_active.png");
+  }
+}
+div#save{
+  margin-top: 56px;
+  background-image: url("../../image/btnSave_normal.png");
+  &:hover{
+    background-image: url("../../image/btnSave_hover.png");
+  }
+  &:active{
+    background-image: url("../../image/btnSave_active.png");
+  }
+}

@@ -5,11 +5,19 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    audio:{
+      heavyClick:null,
+      lightClick:null,
+      select:null
+    }
   },
   mutations: {
+
   },
   actions: {
+
   },
   modules: {
+
   }
 })
