@@ -1,0 +1,160 @@
+/////////////////////////////
+//Human Bldgs, Upgrades & Abilities
+//人族建筑，升级和技能
+/////////////////////////////
+
+// control magic 魔法控制
+[Rhss]
+Hotkey=G
+
+// iron swords upgrades 近战武器升级
+[Rhme]
+Hotkey=S,S,S
+
+// gunpowder upgrades 远程武器升级
+[Rhra]
+Hotkey=G,G,G
+
+// iron armor upgrades 铁甲升级
+[Rhar]
+Hotkey=P,P,P
+
+// leather armor upgrades 皮甲升级
+[Rhla]
+Hotkey=A,A,A
+
+// masonry upgrades 建筑护甲升级
+[Rhac]
+Hotkey=M,M,M
+
+//flying machine bombs 直升机炸弹
+[Rhgb]
+Hotkey=B
+
+//improved lumber harvesting upgrades 伐木工升级
+[Rhlh]
+Hotkey=Q,Q
+
+//defend upgrade 步兵举盾防御升级
+[Rhde]
+Hotkey=D
+
+//动物作战升级(骑士和狮鹫生命+100)
+[Rhan]
+Hotkey=X
+
+//牧师训练升级
+[Rhpt]
+Hotkey=E,E
+
+//女巫训练升级
+[Rhst]
+Hotkey=O,O
+
+//火枪射程升级
+[Rhri]
+Hotkey=L
+
+//魔法岗哨升级
+[Rhse]
+Hotkey=M
+
+//闪光弹升级
+[Rhfl]
+Hotkey=R
+
+//storm hammers upgrade 风暴之锤升级（狮鹫）
+[Rhhb]
+Hotkey=H
+
+//barrage upgrade 轰天弹幕升级
+[Rhrt]
+Hotkey=G
+
+//backpack upgrade 人类背包升级
+[Rhpm]
+Hotkey=B
+
+//flak cannons upgrade 速射机炮升级（侏儒直升机）
+[Rhfc]
+Hotkey=C
+
+// 爆炸碎片升级(迫击炮弹片)
+[Rhfs]
+Hotkey=S
+
+// 蔽目乌云升级
+[Rhcd]
+Hotkey=C
+
+// 裂甲之刃升级
+[Rhsb]
+Hotkey=B
+
+//国王祭坛
+[halt]
+Hotkey=A
+
+//战争磨坊
+[harm]
+Hotkey=W
+
+//神秘圣地
+[hars]
+Hotkey=R
+
+//兵营
+[hbar]
+Hotkey=B
+
+//铁匠铺
+[hbla]
+Hotkey=S
+
+//农场
+[hhou]
+Hotkey=F
+
+//狮鹫笼
+[hgra]
+Hotkey=G
+
+//炮塔
+[hctw]
+Hotkey=E
+
+//箭塔
+[hgtw]
+Hotkey=Q
+
+//哨塔
+[hwtw]
+Hotkey=T
+
+//神秘塔
+[hatw]
+Hotkey=R
+
+// reveal on arcane tower 反隐升级
+[AHta]
+Hotkey=R
+
+//人族商店
+[hvlt]
+Hotkey=V
+
+//伐木场
+[hlum]
+Hotkey=L
+
+//要塞
+[hkee]
+Hotkey=U
+
+//城堡
+[hcas]
+Hotkey=U
+
+//城镇大厅
+[htow]
+Hotkey=H

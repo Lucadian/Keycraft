@@ -24,7 +24,7 @@ let human_arch = {
                 tip:'警钟(召唤附近农民变为民兵)',
                 ico:[6,1],
                 pos:[2,3],
-                key:'[hpea]',
+                key:'[Amic]',
                 val:'Q',
             },
             {
@@ -117,14 +117,16 @@ let human_arch = {
                 ico:[7,5],
                 pos:[1,1],
                 key:'[Rhlh]',
-                val:['Q','Q']
+                val:'Q',
+                map:2
             },
             {
                 tip:'建筑强度升级',
                 ico:[8,5],
                 pos:[2,1],
                 key:'[Rhac]',
-                val:['M','M','M']
+                val:'M',
+                map:3
             }
         ]
     },
@@ -138,28 +140,32 @@ let human_arch = {
                 ico:[5,5],
                 pos:[1,1],
                 key:'[Rhme]',
-                val:['S','S','S']
+                val:'S',
+                map:3
             },
             {
                 tip:'火药升级',
                 ico:[6,5],
                 pos:[2,1],
                 key:'[Rhra]',
-                val:['G','G','G']
+                val:'G',
+                map:3
             },
             {
                 tip:'钢制护甲升级',
                 ico:[5,6],
                 pos:[1,2],
                 key:'[Rhar]',
-                val:['P','P','P']
+                val:'P',
+                map:3
             },
             {
                 tip:'皮制护甲升级',
                 ico:[6,6],
                 pos:[2,2],
                 key:'[Rhla]',
-                val:['A','A','A']
+                val:'A',
+                map:3
             },
         ]
     },
@@ -239,14 +245,16 @@ let human_arch = {
                 ico:[5,7],
                 pos:[1,3],
                 key:'[Rhst]',
-                val:['O','O'],
+                val:'O',
+                map:2
             },
             {
                 tip:'牧师升级',
                 ico:[6,7],
                 pos:[2,3],
                 key:'[Rhpt]',
-                val:['E','E'],
+                val:'E',
+                map:2
             },
             {
                 tip:'研究魔法控制',
@@ -497,6 +505,7 @@ let human_arch = {
                 key:'[hvlt]',
                 val:'V',
             },
+
         ]
     }
 

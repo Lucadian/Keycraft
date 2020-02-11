@@ -6,7 +6,7 @@
       <div id="option" class="sideBtn" @mouseup="showOption">选项</div>
       <div id="save"   class="sideBtn" @mouseup="showSaveInfo">保存</div>
     </aside>
-    <main>
+    <main @contextmenu="clearCurrentKey">
       <units/>
       <archs/>
       <props/>
@@ -33,16 +33,25 @@
 
       }
     },
-
+    computed:{
+      ...mapState(['units']),
+    },
     methods:{
-      ...mapMutations(['lightClickSound']),
+      ...mapMutations(['lightClickSound','cancelSound']),
       showOption(){
         this.lightClickSound()
       },
       showSaveInfo(){
         this.lightClickSound()
       },
-
+      clearCurrentKey(){
+        // event.preventDefault()
+        if(this.units.currentKey){
+          this.cancelSound()
+          this.units.currentKey = ''
+          this.units.currentVal = ''
+        }
+      }
     },
     components:{
         sound,camps,units,archs,props,remap,infos

@@ -1,0 +1,218 @@
+/////////////////////////////
+//Human Units & Abilities
+//人族单位和技能
+/////////////////////////////
+
+//龙鹰
+[hdhw]
+Hotkey=D
+
+// 空中枷锁
+[Amls]
+Hotkey=E
+
+// 蔽目乌云
+[Aclf]
+Hotkey=C
+
+// 步兵
+[hfoo]
+Hotkey=F
+
+// 防御
+[Adef]
+Hotkey=D
+Unhotkey=D
+
+// 直升机
+[hgyr]
+Hotkey=F
+
+// 骑士
+[hkni]
+Hotkey=A
+
+//牧师
+[hmpr]
+Hotkey=R
+
+// 心灵之火
+[Ainf]
+Hotkey=F
+Unhotkey=F
+
+// 治疗
+[Ahea]
+Hotkey=E
+Unhotkey=E
+
+//驱散
+[Adis]
+Hotkey=D
+
+//迫击炮
+[hmtm]
+Hotkey=A
+
+// 照明弹
+[Afla]
+Hotkey=F
+
+//peasant 农民
+[hpea]
+Hotkey=Q
+
+// 民兵 (农民自身技能，变为民兵)
+[Amil]
+Hotkey=C
+Unhotkey=W
+
+// 警钟 (将附近农民变为民兵)
+[Amic]
+Hotkey=F
+Unhotkey=D
+
+// 火枪手
+[hrif]
+Hotkey=R
+
+// 女巫
+[hsor]
+Hotkey=S
+
+// 减速
+[Aslo]
+Hotkey=Q
+Unhotkey=D
+
+// 变形术
+[Aply]
+Hotkey=X
+
+// 隐形术
+[Aivs]
+Hotkey=Z
+
+// 破法者
+[hspt]
+Hotkey=B
+
+// 魔法盗取
+[Asps]
+Hotkey=T
+Unhotkey=T
+
+// 魔法控制
+[Acmg]
+Hotkey=C
+
+// siege engine (without barrage)  蒸汽机车(无对空弹幕)
+[hmtt]
+Hotkey=E
+
+// siege engine (with barrage) 蒸汽机车(有对空弹幕)
+[hrtt]
+Hotkey=E
+
+//狮鹫骑士
+[hgry]
+Hotkey=G
+
+/////////////////////////////
+//Human Heroes & Abilities
+/////////////////////////////
+
+//血魔法师
+[Hblm]
+Hotkey=B
+
+// 魔法虹吸
+[AHdr]
+Hotkey=N
+Researchhotkey=N
+
+// 烈焰风暴
+[AHfs]
+Hotkey=F
+Researchhotkey=F
+
+// 放逐
+[AHbn]
+Hotkey=B
+Researchhotkey=B
+
+// 召唤凤凰
+[AHpx]
+Hotkey=X
+Researchhotkey=X
+
+//archmage 大法师
+[Hamg]
+Hotkey=A
+
+// Blizzard 暴风雪
+[AHbz]
+Hotkey=B
+Researchhotkey=B
+
+// Summon Water Elemental 水元素
+[AHwe]
+Hotkey=W
+Researchhotkey=W
+
+// Brilliance Aura 辉煌光环
+[AHab]
+Researchhotkey=R
+
+// Mass Teleport 群体传送
+[AHmt]
+Hotkey=T
+Researchhotkey=T
+
+//山丘之王
+[Hmkg]
+Hotkey=M
+
+// 风暴之锤
+[AHtb]
+Hotkey=Q
+Researchhotkey=Q
+
+// 雷霆一击
+[AHtc]
+Hotkey=E
+Researchhotkey=E
+
+// 重击
+[AHbh]
+Researchhotkey=R
+
+// 天神下凡
+[AHav]
+Hotkey=V
+Unhotkey=V
+Researchhotkey=V
+
+//圣骑士
+[Hpal]
+Hotkey=L
+
+// 圣光
+[AHhb]
+Hotkey=Q
+Researchhotkey=Q
+
+// 无敌
+[AHds]
+Hotkey=E
+Unhotkey=E
+Researchhotkey=E
+
+// 专注光环
+[AHad]
+Researchhotkey=R
+
+// 复活
+[AHre]
+Hotkey=V
+Researchhotkey=V

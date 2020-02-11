@@ -2,6 +2,16 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import { human_arch } from '../config/human_arch'
+import { human_unit } from '../config/human_unit'
+import { general_order } from '../config/general_order'
+
+Object.keys(human_unit).forEach(function(key){
+  if(!human_unit[key].btn){
+    human_unit[key].btn = []
+  }
+  human_unit[key].btn.push(...general_order)
+
+})
 
 Vue.use(Vuex)
 
@@ -17,12 +27,21 @@ export default new Vuex.Store({
         '中立'
       ]
     },
-    human_arch,
-    props:[],
+    units:{
+      human_arch,
+      human_unit,
+      activated:'',//单位和建筑
+      currentKey:'',//快捷键名字
+      currentVal:'',//快捷键的值
+      proptype:'',
+      props:[],
+    },
     sound:{
       heavyClick:null,
       lightClick:null,
-      select:null
+      select:null,
+      check:null,
+      cancel:null
     }
   },
   getters:{
@@ -40,6 +59,13 @@ export default new Vuex.Store({
     selectSound(state){
       state.sound.select.currentTime = 0.3
       state.sound.select.play()
+    },
+    checkSound(state){
+      state.sound.check.currentTime = 0.6
+      state.sound.check.play()
+    },
+    cancelSound(state){
+      state.sound.cancel.play()
     }
   },
   actions: {

@@ -8,13 +8,13 @@ html,body{
   -webkit-font-smoothing: antialiased;
   width: 1250px;height: 880px;
   margin: 0 auto;
-  background-image: url("../../image/mainBackground.jpg");
+  background-image: url("../../image/mainBackground_withButtons.jpg");
   background-size: cover;
   background-color: black;
   display: flex;
   justify-content: space-between;
   color: #ffd42b;
-  text-shadow: 0 0 4px black,0 0 2px black;
+  //text-shadow: 0 0 4px black,0 0 2px black;
   cursor: url("../../image/cursor_small.png"),auto;
 }
 ul,li{

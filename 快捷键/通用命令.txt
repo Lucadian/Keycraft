@@ -1,0 +1,102 @@
+/////////////////////////////
+//Shared Commands (attack, etc.) 共用命令和技能 (攻击，巡逻，采集等)
+/////////////////////////////
+
+//移动
+[CmdMove]
+Hotkey=M
+
+//攻击
+[CmdAttack]
+Hotkey=A
+
+//攻击地面
+[CmdAttackGround]
+Hotkey=X
+
+//建造 (普通)
+[CmdBuild]
+Hotkey=B
+
+///建造 (人类)
+[CmdBuildHuman]
+Hotkey=B
+
+//建造 (兽人)
+[CmdBuildOrc]
+Hotkey=B
+
+//建造 (暗夜精灵)
+[CmdBuildNightElf]
+Hotkey=B
+
+//建造 (不死)
+[CmdBuildUndead]
+Hotkey=B
+
+//取消
+[CmdCancel]
+Hotkey=27
+
+//取消建造
+[CmdCancelBuild]
+Hotkey=27
+
+//取消训练
+[CmdCancelTrain]
+Hotkey=27
+
+//取消复活
+[CmdCancelRevive]
+Hotkey=27
+
+//保持位置不动
+[CmdHoldPos]
+Hotkey=G
+
+//巡逻
+[CmdPatrol]
+Hotkey=T
+
+//集结点
+[CmdRally]
+Hotkey=Y
+
+//选择技能 学习技能
+[CmdSelectSkill]
+Hotkey=V
+
+//停止
+[CmdStop]
+Hotkey=S
+
+//normal harvest  苦工/农民 采集
+[Ahar]
+Hotkey=L
+Unhotkey=L
+
+//伐木 (食尸鬼)
+[Ahrl]
+Hotkey=L
+Unhotkey=L
+
+// 苦工/农民 修理 技能
+[Arep]
+Hotkey=E
+Unhotkey=E
+
+// neutral interact (Select user command) which is used on player shops, etc 选择当前服务的目标，商店技能
+[Anei]
+Hotkey=F
+
+// Cargo Load (飞艇)
+[Aloa]
+Hotkey=Z
+
+// 卸载 (飞艇)
+[Adro]
+Hotkey=D
+
+// 卸载 (舰船)
+[Sdro]
+Hotkey=D
