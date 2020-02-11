@@ -36,6 +36,7 @@
                     this.units.props = this.units.human_arch[name].btn
                     this.units.currentKey = ''
                     this.units.currentVal = ''
+                    this.units.editing = false
                     this.units.proptype = 'arch'
                     this.selectSound()
                 }

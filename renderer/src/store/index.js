@@ -33,8 +33,10 @@ export default new Vuex.Store({
       activated:'',//单位和建筑
       currentKey:'',//快捷键名字
       currentVal:'',//快捷键的值
+      currentTip:'',//快捷键描述
       proptype:'',
       props:[],
+      editing:false,
     },
     sound:{
       heavyClick:null,

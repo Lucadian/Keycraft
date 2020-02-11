@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <aside>
-      <h2 id="title">快捷键设置</h2>
+      <h2 id="title">自定义按键</h2>
       <camps/>
       <div id="option" class="sideBtn" @mouseup="showOption">选项</div>
       <div id="save"   class="sideBtn" @mouseup="showSaveInfo">保存</div>
@@ -50,6 +50,7 @@
           this.cancelSound()
           this.units.currentKey = ''
           this.units.currentVal = ''
+          this.units.editing = false
         }
       }
     },

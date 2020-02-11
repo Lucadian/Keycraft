@@ -5,6 +5,7 @@
              :style="setPosition(btn) + setIcon(btn)"
              :keyname="btn.key"
              :val="btn.val"
+             :tip="btn.tip"
              :class="{activated: String(btn.key) === String(units.currentKey)}"
              @click="checkKey"
         >
@@ -19,7 +20,6 @@
         name: "props",
         computed:{
             ...mapState(['units']),
-
         },
         methods:{
             ...mapMutations(['checkSound']),
@@ -34,6 +34,8 @@
                 if(this.units.currentKey !== keyname){
                     this.units.currentKey = keyname
                     this.units.currentVal =  event.currentTarget.getAttribute('val')
+                    this.units.currentTip =  event.currentTarget.getAttribute('tip')
+                    this.units.editing = false
                     this.checkSound()
                 }
             }

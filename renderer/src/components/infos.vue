@@ -1,7 +1,9 @@
 <template>
     <div id="infos" class="box">
-        <div class="info_1">「 烈焰风暴 」技能被设置为 E</div>
-        <div class="info_2">快捷键设置已保存！</div>
+        <div class="info_1" v-if="units.currentVal">
+            「 {{ units.currentTip }} 」
+        </div>
+        <div class="info_2" v-if="units.currentVal">{{ units.currentTip }}</div>
         <div class="version">
             version 1.0
         </div>
@@ -9,8 +11,12 @@
 </template>
 
 <script>
+    import { mapState,mapMutations } from 'vuex'
     export default {
-        name: "infos"
+        name: "infos",
+        computed:{
+            ...mapState(['units'])
+        }
     }
 </script>
 
