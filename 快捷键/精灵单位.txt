@@ -1,0 +1,418 @@
+/////////////////////////////
+//Night Elf Units & Abilities
+/////////////////////////////
+
+// Shadow Meld 
+[Ashm]
+Hotkey=I
+
+//glaive thrower
+[ebal]
+Hotkey=T
+
+//chimaera
+[echm]
+Hotkey=C
+
+//druid of the claw, night elf form
+[edoc]
+Hotkey=C
+
+// Roar, night elf form
+[Aroa]
+Hotkey=R
+
+// Rejuvenation
+[Arej]
+Hotkey=E
+
+// Bear Form
+[Abrf]
+Hotkey=F
+Unhotkey=F
+
+// Roar (bear form)
+[Ara2]
+Hotkey=R
+
+//druid of the talon
+[edot]
+Hotkey=T
+
+// Faerie Fire
+[Afae]
+Hotkey=R
+Unhotkey=R
+
+// Cyclone
+[Acyc]
+Hotkey=C
+
+// Crow Form
+[Arav]
+Hotkey=F
+Unhotkey=F
+
+// Faerie Fire (Crow form)
+[Afa2]
+Hotkey=R
+Unhotkey=R
+
+//wisp
+[ewsp]
+Hotkey=W
+
+// Renew
+[Aren]
+Hotkey=R
+Unhotkey=R
+
+// Wisp Harvest
+[Awha]
+Hotkey=G
+
+// Detonate
+[Adtn]
+Hotkey=D
+
+//huntress
+[esen]
+Hotkey=H
+
+// Sentinel
+[Aesn]
+Hotkey=E
+
+//archer
+[earc]
+Hotkey=A
+
+// Mount Hippogryph
+[Aco2]
+Hotkey=U
+
+// Dismount Hippogryph
+[Adec]
+Hotkey=U
+
+//dryad
+[edry]
+Hotkey=D
+
+// Auto-Dispel Magic
+[Aadm]
+Hotkey=B
+Unhotkey=B
+
+//hippogryph
+[ehip]
+Hotkey=H
+
+// Pick up Archer
+[Aco3]
+Hotkey=U
+
+//mountain giant
+[emtg]
+Hotkey=G
+
+// War Club
+[Agra]
+Hotkey=W
+
+// Taunt
+[Atau]
+Hotkey=T
+
+//faerie dragon
+[efdr]
+Hotkey=F
+
+// Mana Flare
+[Amfl]
+Hotkey=F
+Unhotkey=F
+
+// Phase Shift
+[Apsh]
+Hotkey=E
+Unhotkey=E
+
+
+////////////////////////////
+//Night Elf Bldgs, Upgrades & Abilities
+////////////////////////////
+
+//strength of the moon upgrades
+[Resm]
+Hotkey=M,M,M
+
+//strength of the wild upgrades
+[Resw]
+Hotkey=W,W,W
+
+//moon armor upgrades
+[Rema]
+Hotkey=A,A,A
+
+//reinforced hide upgrades
+[Rerh]
+Hotkey=R,R,R
+
+//ultravision
+[Reuv]
+Hotkey=U
+
+//nature's blessing upgrade
+[Renb]
+Hotkey=N
+
+//improved bows upgrade
+[Reib]
+Hotkey=I
+
+//marksmanship upgrade
+[Remk]
+Hotkey=M
+
+//sentinel upgrade
+[Resc]
+Hotkey=S
+
+//moon glaive upgrade
+[Remg]
+Hotkey=G
+
+//druid of the talon training upgrade
+[Redt]
+Hotkey=A,A
+
+//druid of the claw training upgrade
+[Redc]
+Hotkey=L,L
+
+//abolish magic upgrade
+[Resi]
+Hotkey=S
+
+//hippogryph taming upgrade
+[Reht]
+Hotkey=I
+
+//corrosive breath upgrade
+[Recb]
+Hotkey=B
+
+//vorpal blades upgrade
+[Repb]
+Hotkey=P
+
+//resistant skin upgrade
+[Rers]
+Hotkey=T
+
+//hardened skin upgrade
+[Rehs]
+Hotkey=H
+
+//mark of the claw upgrade
+[Reeb]
+Hotkey=M
+
+//mark of the talon upgrade
+[Reec]
+Hotkey=M
+
+//wellspring upgrade
+[Rews]
+Hotkey=E
+
+//backpack upgrade
+[Repm]
+Hotkey=B
+
+// Eat Tree
+[Aeat]
+Hotkey=E
+
+// Root
+[Aroo]
+Hotkey=R
+Unhotkey=R
+
+//ancient protector
+[etrp]
+Hotkey=P
+
+//tree of life
+[etol]
+Hotkey=T
+
+// Entangle gold mine
+[Aent]
+Hotkey=G
+
+// Entangled Gold Mine Cargo (load/unload)
+[Aenc]
+Hotkey=L
+Unhotkey=U
+
+// Cargo Load entangled mine
+[Slo2]
+Hotkey=L
+
+// Cargo Unload (Instant, gold mine)
+[Adri]
+Hotkey=U
+
+
+
+//upgrade to tree of ages
+[etoa]
+Hotkey=U
+
+//upgrade to tree of eternity
+[etoe]
+Hotkey=U
+
+//hunter's hall
+[edob]
+Hotkey=H
+
+//altar of elders
+[eate]
+Hotkey=A
+
+//ancient of lore
+[eaoe]
+Hotkey=L
+
+//ancient of war
+[eaom]
+Hotkey=R
+
+//ancient of wind
+[eaow]
+Hotkey=W
+
+//ancient of wonders
+[eden]
+Hotkey=D
+
+//chimaera roost
+[edos]
+Hotkey=C
+
+//moon well 月亮井
+[emow]
+Hotkey=M
+
+// Moon pool mana replenish 使用井水
+[Ambt]
+Hotkey=R
+Unhotkey=R
+
+//////////////////////////////
+//Night Elf Heroes & Abilities
+//////////////////////////////
+
+//Demon Hunter 恶魔猎手
+[Edem]
+Hotkey=D
+
+// Mana Burn 法力燃烧
+[AEmb]
+Hotkey=B
+Researchhotkey=B
+
+// Immolation
+[AEim]
+Hotkey=L
+Unhotkey=L
+Researchhotkey=L
+
+// Evasion
+[AEev]
+Researchhotkey=E
+
+// Metamorphosis
+[AEme]
+Hotkey=T
+Researchhotkey=T
+
+//keeper of the grove
+[Ekee]
+Hotkey=K
+
+// Entangling Roots
+[AEer]
+Hotkey=E
+Researchhotkey=E
+
+// Force of Nature
+[AEfn]
+Hotkey=F
+Researchhotkey=F
+
+// Thorns Aura
+[AEah]
+Researchhotkey=R
+
+// Tranquility
+[AEtq]
+Hotkey=T
+Researchhotkey=T
+
+//priestess of the moon
+[Emoo]
+Hotkey=P
+
+// Scout
+[AEst]
+Hotkey=C
+Researchhotkey=C
+
+// Searing Arrows
+[AHfa]
+Hotkey=R
+Unhotkey=R
+Researchhotkey=R
+
+// Trueshot Aura
+[AEar]
+Researchhotkey=T
+
+// Starfall
+[AEsf]
+Hotkey=F
+Researchhotkey=F
+
+//warden
+[Ewar]
+Hotkey=W
+
+// Blink
+[AEbl]
+Hotkey=B
+Researchhotkey=B
+
+// Fan of Knives
+[AEfk]
+Hotkey=F
+Researchhotkey=F
+
+// Shadow Strike
+[AEsh]
+Hotkey=D
+Researchhotkey=D
+
+
+// Avatar of Vengeance
+[AEsv]
+Hotkey=V
+Researchhotkey=V
+
+
+// Vengeance
+[Avng]
+Hotkey=V

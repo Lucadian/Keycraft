@@ -34,7 +34,7 @@
       }
     },
     computed:{
-      ...mapState(['units']),
+      ...mapState(['pond']),
     },
     methods:{
       ...mapMutations(['lightClickSound','cancelSound']),
@@ -46,13 +46,14 @@
       },
       clearCurrentKey(){
         // event.preventDefault()
-        if(this.units.currentKey){
+        if(this.pond.currentKey){
           this.cancelSound()
-          this.units.currentKey = ''
-          this.units.currentVal = ''
-          this.units.editing = false
+          this.pond.currentKey = ''
+          this.pond.currentVal = ''
+          this.pond.editing = false
         }
-      }
+      },
+
     },
     components:{
         sound,camps,units,archs,props,remap,infos

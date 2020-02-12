@@ -5,6 +5,7 @@
         <audio id="audio_select" src="../../sound/war3selectClick.ogg"/>
         <audio id="audio_check" src="../../sound/war3checkClick.ogg"/>
         <audio id="audio_cancel" src="../../sound/cancel.ogg"/>
+        <audio id="audio_metalClick" src="../../sound/metalClick.ogg"/>
     </div>
 </template>
 
@@ -30,6 +31,9 @@
             this.sound.check.currentTime = 0.6
 
             this.sound.cancel = document.getElementById('audio_cancel')
+
+            this.sound.metalClick = document.getElementById('audio_metalClick')
+            this.sound.metalClick.volume = 0.5
             // this.sound.cancel.currentTime = 0.6
         }
     }

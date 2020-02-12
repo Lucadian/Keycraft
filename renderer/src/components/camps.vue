@@ -4,7 +4,7 @@
             :class="{actived:idx === camp.index}"
             :index="idx"
             v-text="name"
-            @mouseup="selectCamp"
+            @click="selectCamp"
         />
     </ul>
 </template>
@@ -14,17 +14,28 @@
     export default {
         name: "camps",
         computed:{
-            ...mapState(['camp'])
+            ...mapState(['camp','pond'])
         },
         methods:{
             ...mapMutations(['heavyClickSound']),
             selectCamp(){
                 let index = parseInt(event.currentTarget.getAttribute('index'))
                 if(this.camp.index !== index){
+                    this.clearPond()
                     this.camp.index = index
                     this.heavyClickSound()
                 }
             },
+            clearPond(){
+                    this.pond.activated  = ''
+                    this.pond.currentKey = ''
+                    this.pond.currentVal = ''
+                    this.pond.currentTag = ''
+                    this.pond.currentTip = ''
+                    this.pond.proptype   = ''
+                    this.pond.props      = []
+                    this.pond.editing    = false
+            }
 
 
         },

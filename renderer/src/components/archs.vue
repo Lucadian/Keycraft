@@ -2,10 +2,17 @@
     <div id="archs" class="box">
         <h2 class="subtitle">建筑</h2>
         <ul>
-            <li v-for="(val,key) in units.human_arch">
+            <li v-for="(val,key) in camp.archs[camp.index]">
                 <div @mouseup="showProps"
                      :style="setIcon(val)"
-                     :class="{activated:key === units.activated}"
+                     :class="{
+                        activated:key === pond.activated,
+                        icon_human:camp.index === 0,
+                        icon_elf:camp.index === 1,
+                        icon_orc:camp.index === 2,
+                        icon_undead:camp.index === 3,
+                        icon_neutral:camp.index === 4,
+                        }"
                      :name="key"
                 ></div>
             </li>
@@ -22,7 +29,7 @@
             }
         },
         computed:{
-            ...mapState(['units'])
+            ...mapState(['camp','pond'])
         },
         watch:{
 
@@ -31,13 +38,13 @@
             ...mapMutations(['selectSound']),
             showProps(){
                 let name = event.currentTarget.getAttribute('name')
-                if(this.units.activated !== name){
-                    this.units.activated = name
-                    this.units.props = this.units.human_arch[name].btn
-                    this.units.currentKey = ''
-                    this.units.currentVal = ''
-                    this.units.editing = false
-                    this.units.proptype = 'arch'
+                if(this.pond.activated !== name){
+                    this.pond.activated = name
+                    this.pond.props = this.camp.archs[this.camp.index][name].btn
+                    this.pond.currentKey = ''
+                    this.pond.currentVal = ''
+                    this.pond.editing = false
+                    this.pond.proptype = 'arch'
                     this.selectSound()
                 }
             },

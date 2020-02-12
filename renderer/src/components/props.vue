@@ -1,15 +1,24 @@
 <template>
     <div id="buttons" class="box">
         <h2 class="subtitle">按钮</h2>
-        <div class="button" v-for="btn in units.props"
+        <div class="button" v-for="(btn,idx) in pond.props"
              :style="setPosition(btn) + setIcon(btn)"
+             :idx="idx"
              :keyname="btn.key"
              :val="btn.val"
+             :tag="btn.tag"
              :tip="btn.tip"
-             :class="{activated: String(btn.key) === String(units.currentKey)}"
+             :class="{
+                activated: String(btn.key) === String(pond.currentKey),
+                icon_human:camp.index === 0,
+                icon_elf:camp.index === 1,
+                icon_orc:camp.index === 2,
+                icon_undead:camp.index === 3,
+                icon_neutral:camp.index === 4,
+                }"
              @click="checkKey"
         >
-            <div v-show="String(btn.key) !== String(units.currentKey)" class="shortcut" v-text="btn.val" />
+            <div v-show="String(btn.key) !== String(pond.currentKey)" class="shortcut" v-text="btn.val" />
         </div>
     </div>
 </template>
@@ -19,7 +28,7 @@
     export default {
         name: "props",
         computed:{
-            ...mapState(['units']),
+            ...mapState(['camp','pond']),
         },
         methods:{
             ...mapMutations(['checkSound']),
@@ -31,11 +40,13 @@
             },
             checkKey(){
                 let keyname = event.currentTarget.getAttribute('keyname')
-                if(this.units.currentKey !== keyname){
-                    this.units.currentKey = keyname
-                    this.units.currentVal =  event.currentTarget.getAttribute('val')
-                    this.units.currentTip =  event.currentTarget.getAttribute('tip')
-                    this.units.editing = false
+                if(this.pond.currentKey !== keyname){
+                    this.pond.currentKey =  keyname
+                    this.pond.currentVal =  event.currentTarget.getAttribute('val')
+                    this.pond.currentTag =  event.currentTarget.getAttribute('tag')
+                    this.pond.currentTip =  event.currentTarget.getAttribute('tip')
+                    this.pond.propIndex  =  event.currentTarget.getAttribute('idx')
+                    this.pond.editing = false
                     this.checkSound()
                 }
             }

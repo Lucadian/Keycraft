@@ -1,19 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-
-import { human_arch } from '../config/human_arch'
-import { human_unit } from '../config/human_unit'
-import { general_order } from '../config/general_order'
-
-Object.keys(human_unit).forEach(function(key){
-  if(!human_unit[key].btn){
-    human_unit[key].btn = []
-  }
-  human_unit[key].btn.push(...general_order)
-
-})
-
 Vue.use(Vuex)
+
+
+import { arch_human } from '../config/arch_human'
+import { unit_human } from '../config/unit_human'
+
+
+
 
 export default new Vuex.Store({
   state: {
@@ -25,17 +19,34 @@ export default new Vuex.Store({
         '兽人部落',
         '不死亡灵',
         '中立'
+      ],
+      icons:[
+          'icon_human'
+      ],
+      units:[
+          unit_human,
+          [],
+          [],
+          [],
+          []
+      ],
+      archs:[
+          arch_human,
+          [],
+          [],
+          [],
+          []
       ]
     },
-    units:{
-      human_arch,
-      human_unit,
+    pond:{
       activated:'',//单位和建筑
       currentKey:'',//快捷键名字
       currentVal:'',//快捷键的值
+      currentTag:'',
       currentTip:'',//快捷键描述
-      proptype:'',
-      props:[],
+      proptype  :'',
+      propIndex :0,
+      props     :[],
       editing:false,
     },
     sound:{
@@ -43,8 +54,9 @@ export default new Vuex.Store({
       lightClick:null,
       select:null,
       check:null,
-      cancel:null
-    }
+      cancel:null,
+      metalClick:null
+    },
   },
   getters:{
 
@@ -68,6 +80,10 @@ export default new Vuex.Store({
     },
     cancelSound(state){
       state.sound.cancel.play()
+    },
+    metalClickSound(state){
+      state.sound.metalClick.currentTime = 0
+      state.sound.metalClick.play()
     }
   },
   actions: {

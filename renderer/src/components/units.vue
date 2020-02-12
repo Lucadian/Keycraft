@@ -2,11 +2,18 @@
     <div id="unit" class="box">
         <h2 class="subtitle">单位</h2>
         <ul>
-            <li v-for="(val,key) in units.human_unit">
+            <li v-for="(val,name) in camp.units[camp.index]">
                 <div @mouseup="showProps"
                      :style="setIcon(val)"
-                     :class="{activated:key === units.activated}"
-                     :name="key"
+                     :class="{
+                        activated:name === pond.activated,
+                        icon_human:camp.index === 0,
+                        icon_elf:camp.index === 1,
+                        icon_orc:camp.index === 2,
+                        icon_undead:camp.index === 3,
+                        icon_neutral:camp.index === 4,
+                      }"
+                     :name="name"
                 ></div>
             </li>
         </ul>
@@ -17,20 +24,24 @@
     import { mapState,mapMutations } from 'vuex'
     export default {
         name: "units",
+        data(){
+            return {
+            }
+        },
         computed:{
-            ...mapState(['units'])
+            ...mapState(['camp','pond']),
         },
         methods:{
             ...mapMutations(['selectSound']),
             showProps(){
                 let name = event.currentTarget.getAttribute('name')
-                if(this.units.activated !== name){
-                    this.units.activated = name
-                    this.units.props = this.units.human_unit[name].btn
-                    this.units.currentKey = ''
-                    this.units.currentVal = ''
-                    this.units.editing = false
-                    this.units.proptype = 'unit'
+                if(this.pond.activated !== name){
+                    this.pond.activated = name
+                    this.pond.props = this.camp.units[this.camp.index][name].btn
+                    this.pond.currentKey = ''
+                    this.pond.currentVal = ''
+                    this.pond.editing = false
+                    this.pond.proptype = 'unit'
                     this.selectSound()
                 }
             },
