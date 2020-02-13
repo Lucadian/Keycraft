@@ -20,9 +20,6 @@ export default new Vuex.Store({
         '不死亡灵',
         '中立'
       ],
-      icons:[
-          'icon_human'
-      ],
       units:[
           unit_human,
           [],
@@ -39,7 +36,7 @@ export default new Vuex.Store({
       ]
     },
     pond:{
-      activated:'',//单位和建筑
+      activated :'' ,//当前选择的单位或建筑
       currentKey:'',//快捷键名字
       currentVal:'',//快捷键的值
       currentTag:'',
@@ -47,7 +44,7 @@ export default new Vuex.Store({
       proptype  :'',
       propIndex :0,
       props     :[],
-      editing:false,
+      editing   :false,
     },
     sound:{
       heavyClick:null,

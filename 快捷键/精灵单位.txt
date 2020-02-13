@@ -2,138 +2,138 @@
 //Night Elf Units & Abilities
 /////////////////////////////
 
-// Shadow Meld 
+// Shadow Meld 影遁
 [Ashm]
 Hotkey=I
 
-//glaive thrower
+//glaive thrower 投刃车
 [ebal]
 Hotkey=T
 
-//chimaera
+//chimaera 奇美拉
 [echm]
 Hotkey=C
 
-//druid of the claw, night elf form
+//druid of the claw, night elf form 利爪德鲁伊
 [edoc]
 Hotkey=C
 
-// Roar, night elf form
+// Roar, night elf form 咆哮（精灵形态）
 [Aroa]
 Hotkey=R
 
-// Rejuvenation
+// Rejuvenation 返老还童
 [Arej]
 Hotkey=E
 
-// Bear Form
+// Bear Form 熊形态
 [Abrf]
 Hotkey=F
 Unhotkey=F
 
-// Roar (bear form)
+// Roar (bear form)  咆哮（熊形态）
 [Ara2]
 Hotkey=R
 
-//druid of the talon
+//druid of the talon 猛禽德鲁伊
 [edot]
 Hotkey=T
 
-// Faerie Fire
-[Afae]
+// Faerie Fire 精灵之火
+[Afae] 
 Hotkey=R
 Unhotkey=R
 
-// Cyclone
+// Cyclone 飓风
 [Acyc]
 Hotkey=C
 
-// Crow Form
+// Crow Form 乌鸦形态
 [Arav]
 Hotkey=F
 Unhotkey=F
 
-// Faerie Fire (Crow form)
+// Faerie Fire (Crow form) 精灵之火（乌鸦形态）
 [Afa2]
 Hotkey=R
 Unhotkey=R
 
-//wisp
+//wisp 小精灵
 [ewsp]
 Hotkey=W
 
-// Renew
+// Renew 复苏（精灵修理）
 [Aren]
 Hotkey=R
 Unhotkey=R
 
-// Wisp Harvest
+// Wisp Harvest 精灵采集
 [Awha]
 Hotkey=G
 
-// Detonate
+// Detonate 自爆
 [Adtn]
 Hotkey=D
 
-//huntress
+//huntress 女猎手
 [esen]
 Hotkey=H
 
-// Sentinel
+// Sentinel 哨兵
 [Aesn]
 Hotkey=E
 
-//archer
+//archer 弓箭手
 [earc]
 Hotkey=A
 
-// Mount Hippogryph
+// Mount Hippogryph 骑乘角鹰兽
 [Aco2]
 Hotkey=U
 
-// Dismount Hippogryph
+// Dismount Hippogryph 解散角鹰弓箭手
 [Adec]
 Hotkey=U
 
-//dryad
+//dryad 树妖
 [edry]
 Hotkey=D
 
-// Auto-Dispel Magic
+// Auto-Dispel Magic 驱散
 [Aadm]
 Hotkey=B
 Unhotkey=B
 
-//hippogryph
+//hippogryph 角鹰兽
 [ehip]
 Hotkey=H
 
-// Pick up Archer
+// Pick up Archer 搭载弓箭手
 [Aco3]
 Hotkey=U
 
-//mountain giant
+//mountain giant 山岭巨人
 [emtg]
 Hotkey=G
 
-// War Club
+// War Club 战棍
 [Agra]
 Hotkey=W
 
-// Taunt
+// Taunt 嘲讽
 [Atau]
 Hotkey=T
 
-//faerie dragon
+//faerie dragon 精灵龙
 [efdr]
 Hotkey=F
 
-// Mana Flare
+// Mana Flare 法力闪耀
 [Amfl]
 Hotkey=F
 Unhotkey=F
 
-// Phase Shift
+// Phase Shift 相位变换
 [Apsh]
 Hotkey=E
 Unhotkey=E
@@ -143,55 +143,55 @@ Unhotkey=E
 //Night Elf Bldgs, Upgrades & Abilities
 ////////////////////////////
 
-//strength of the moon upgrades
+//strength of the moon upgrades 月神之力（猎手大厅）
 [Resm]
 Hotkey=M,M,M
 
-//strength of the wild upgrades
+//strength of the wild upgrades 野性之力（猎手大厅）
 [Resw]
 Hotkey=W,W,W
 
-//moon armor upgrades
+//moon armor upgrades 月神之甲（猎手大厅）
 [Rema]
 Hotkey=A,A,A
 
-//reinforced hide upgrades
+//reinforced hide upgrades 强化外皮（猎手大厅）
 [Rerh]
 Hotkey=R,R,R
 
-//ultravision
+//ultravision 夜视能力
 [Reuv]
 Hotkey=U
 
-//nature's blessing upgrade
+//nature's blessing upgrade 
 [Renb]
 Hotkey=N
 
-//improved bows upgrade
+//improved bows upgrade 硬弓升级
 [Reib]
 Hotkey=I
 
-//marksmanship upgrade
+//marksmanship upgrade 研究精准射击
 [Remk]
 Hotkey=M
 
-//sentinel upgrade
+//sentinel upgrade 研究哨兵
 [Resc]
 Hotkey=S
 
-//moon glaive upgrade
+//moon glaive upgrade 月刃升级（女猎手）
 [Remg]
 Hotkey=G
 
-//druid of the talon training upgrade
+//druid of the talon training upgrade 猛禽德鲁伊升级
 [Redt]
 Hotkey=A,A
 
-//druid of the claw training upgrade
+//druid of the claw training upgrade 利爪德鲁伊升级
 [Redc]
 Hotkey=L,L
 
-//abolish magic upgrade
+//abolish magic upgrade 研究驱散
 [Resi]
 Hotkey=S
 
@@ -199,60 +199,60 @@ Hotkey=S
 [Reht]
 Hotkey=I
 
-//corrosive breath upgrade
+//corrosive breath upgrade 腐蚀吐息升级
 [Recb]
 Hotkey=B
 
-//vorpal blades upgrade
+//vorpal blades upgrade 穿刺之刃升级
 [Repb]
 Hotkey=P
 
-//resistant skin upgrade
+//resistant skin upgrade 抗性皮肤升级
 [Rers]
 Hotkey=T
 
-//hardened skin upgrade
+//hardened skin upgrade 硬化皮肤升级
 [Rehs]
 Hotkey=H
 
-//mark of the claw upgrade
+//mark of the claw upgrade 利爪之印（熊状态下咆哮）
 [Reeb]
 Hotkey=M
 
-//mark of the talon upgrade
+//mark of the talon upgrade 猛禽之印（乌鸦状态下精灵之火）
 [Reec]
 Hotkey=M
 
-//wellspring upgrade
+//wellspring upgrade 月经之春升级
 [Rews]
 Hotkey=E
 
-//backpack upgrade
+//backpack upgrade 背包升级
 [Repm]
 Hotkey=B
 
-// Eat Tree
+// Eat Tree 吃树
 [Aeat]
 Hotkey=E
 
-// Root
+// Root 拔起
 [Aroo]
 Hotkey=R
 Unhotkey=R
 
-//ancient protector
+//ancient protector 远古守护者
 [etrp]
 Hotkey=P
 
-//tree of life
+//tree of life 生命之树
 [etol]
 Hotkey=T
 
-// Entangle gold mine
+// Entangle gold mine 缠绕金矿
 [Aent]
 Hotkey=G
 
-// Entangled Gold Mine Cargo (load/unload)
+// Entangled Gold Mine Cargo (load/unload) 被缠绕的金矿 装载/卸载
 [Aenc]
 Hotkey=L
 Unhotkey=U
@@ -267,39 +267,39 @@ Hotkey=U
 
 
 
-//upgrade to tree of ages
+//upgrade to tree of ages 远古之树升级
 [etoa]
 Hotkey=U
 
-//upgrade to tree of eternity
+//upgrade to tree of eternity  永恒之树升级
 [etoe]
 Hotkey=U
 
-//hunter's hall
+//hunter's hall 猎手大厅
 [edob]
 Hotkey=H
 
-//altar of elders
-[eate]
+//altar of elders 长者祭坛
+[eate] 
 Hotkey=A
 
-//ancient of lore
+//ancient of lore 知识古树
 [eaoe]
 Hotkey=L
 
-//ancient of war
+//ancient of war 战争古树
 [eaom]
 Hotkey=R
 
-//ancient of wind
+//ancient of wind 风之古树
 [eaow]
 Hotkey=W
 
-//ancient of wonders
+//ancient of wonders 奇迹古树（商店）
 [eden]
 Hotkey=D
 
-//chimaera roost
+//chimaera roost 奇美拉栖木
 [edos]
 Hotkey=C
 
@@ -325,94 +325,94 @@ Hotkey=D
 Hotkey=B
 Researchhotkey=B
 
-// Immolation
+// Immolation 献祭
 [AEim]
 Hotkey=L
 Unhotkey=L
 Researchhotkey=L
 
-// Evasion
+// Evasion 闪避
 [AEev]
 Researchhotkey=E
 
-// Metamorphosis
+// Metamorphosis 变形
 [AEme]
 Hotkey=T
 Researchhotkey=T
 
-//keeper of the grove
+//keeper of the grove 丛林守护者
 [Ekee]
 Hotkey=K
 
-// Entangling Roots
+// Entangling Roots 根须缠绕
 [AEer]
 Hotkey=E
 Researchhotkey=E
 
-// Force of Nature
+// Force of Nature 自然之力
 [AEfn]
 Hotkey=F
 Researchhotkey=F
 
-// Thorns Aura
+// Thorns Aura 荆棘光环
 [AEah]
 Researchhotkey=R
 
-// Tranquility
+// Tranquility 宁静之雨
 [AEtq]
 Hotkey=T
 Researchhotkey=T
 
-//priestess of the moon
+//priestess of the moon 月女祭祀
 [Emoo]
 Hotkey=P
 
-// Scout
+// Scout 侦查
 [AEst]
 Hotkey=C
 Researchhotkey=C
 
-// Searing Arrows
+// Searing Arrows 灼热之箭
 [AHfa]
 Hotkey=R
 Unhotkey=R
 Researchhotkey=R
 
-// Trueshot Aura
+// Trueshot Aura 强击光环
 [AEar]
 Researchhotkey=T
 
-// Starfall
+// Starfall 流星雨
 [AEsf]
 Hotkey=F
 Researchhotkey=F
 
-//warden
+//warden 守望者
 [Ewar]
 Hotkey=W
 
-// Blink
+// Blink 闪烁
 [AEbl]
 Hotkey=B
 Researchhotkey=B
 
-// Fan of Knives
+// Fan of Knives 刀扇
 [AEfk]
 Hotkey=F
 Researchhotkey=F
 
-// Shadow Strike
+// Shadow Strike 影击
 [AEsh]
 Hotkey=D
 Researchhotkey=D
 
 
-// Avatar of Vengeance
+// Avatar of Vengeance 复仇天神
 [AEsv]
 Hotkey=V
 Researchhotkey=V
 
 
-// Vengeance
+// Vengeance 复仇者
 [Avng]
 Hotkey=V

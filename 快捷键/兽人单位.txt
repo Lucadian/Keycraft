@@ -1,0 +1,357 @@
+/////////////////////////////
+//Orc Units & Abilities
+/////////////////////////////
+
+//demolisher
+[ocat]
+Hotkey=D
+
+//witch doctor
+[odoc]
+Hotkey=W
+
+// Sentry Ward
+[Aeye]
+Hotkey=W
+
+// Stasis Trap spell
+[Asta]
+Hotkey=T
+
+// Healing Ward ÷Œ¡∆ ÿŒ¿
+[Ahwd]
+Hotkey=E
+
+//grunt  ﬁ»À≤Ω±¯ πæ‡‡ ﬁ
+[ogru]
+Hotkey=G
+
+//troll headhunter ¡‘Õ∑’ﬂ
+[ohun]
+Hotkey=T
+
+//troll berserker øÒ±©¡‘Õ∑’ﬂ
+[otbk]
+Hotkey=T
+
+// Berserk øÒ±©
+[Absk]
+Hotkey=B
+
+//kodo beast ø∆∂‡ ﬁ
+[okod]
+Hotkey=K
+
+// Devour ÕÃ …
+[Adev]
+Hotkey=D
+
+//peon ø‡π§
+[opeo]
+Hotkey=P
+
+//raider ¿«∆Ô
+[orai]
+Hotkey=R
+
+// Ensnare ”’≤∂Õ¯
+[Aens]
+Hotkey=E
+
+//shaman »¯¬˙
+[oshm]
+Hotkey=S
+
+// Purge æªªØ
+[Aprg]
+Hotkey=G
+
+// Bloodlust
+[Ablo]
+Hotkey=B
+Unhotkey=B
+
+
+// Lightning Shield
+[Alsh]
+Hotkey=L
+
+//tauren
+[otau]
+Hotkey=T
+
+//troll batrider
+[otbr]
+Hotkey=B
+
+// Unstable Concoction ≤ªŒ»∂®ªØ∫œŒÔ
+[Auco]
+Hotkey=C
+Unhotkey=C
+
+
+//wind rider
+[owyv]
+Hotkey=W
+
+//spirit walker
+[ospm]
+Hotkey=T
+
+// Ancestral Spirit
+[Aast]
+Hotkey=C
+
+// Disenchant (new)
+[Adcn]
+Hotkey=D
+
+// Corporeal Form
+[Acpf]
+Hotkey=F
+Unhotkey=F
+
+// Ethereal Form
+[Aetf]
+Hotkey=F
+Unhotkey=F
+
+// Spirit Link
+[Aspl]
+Hotkey=R
+
+
+/////////////////////////////
+//Orc Bldgs, Upgrades & Abilities
+/////////////////////////////
+
+//orc melee weapon upgrades
+[Rome]
+Hotkey=M,M,M
+
+//orc ranged weapon upgrades
+[Rora]
+Hotkey=R,R,R
+
+//orc armor upgrades
+[Roar]
+Hotkey=A,A,A
+
+//war drums upgrade
+[Rwdm]
+Hotkey=D
+
+// pillage upgrade
+[Ropg]
+Hotkey=G
+
+//berserker strength upgrade
+[Robs]
+Hotkey=B
+
+//pulverize upgrade
+[Rows]
+Hotkey=P
+
+//ensnare upgrade
+[Roen]
+Hotkey=N
+
+//envenomed spears upgrade
+[Rovs]
+Hotkey=E
+
+//witch doctor training upgrade
+[Rowd]
+Hotkey=D,D
+
+//shaman training upgrade
+[Rost]
+Hotkey=M,M
+
+//spiked barricades upgrade
+[Rosp]
+Hotkey=S,S
+
+//troll regeneration upgrade
+[Rotr]
+Hotkey=R
+
+//liquid fire upgrade
+[Rolf]
+Hotkey=L
+
+//backpack upgrade (orc)
+[Ropm]
+Hotkey=B
+
+//spirit walker training upgrade
+[Rowt]
+Hotkey=R,R
+
+//troll berserker upgrade
+[Robk]
+Hotkey=E
+
+//reinforced defenses upgrade
+[Rorb]
+Hotkey=D
+
+//burning oil upgrade
+[Robf]
+Hotkey=N
+
+//altar of storms
+[oalt]
+Hotkey=A
+
+//orc barracks
+[obar]
+Hotkey=B
+
+//bestiary
+[obea]
+Hotkey=E
+
+//war mill
+[ofor]
+Hotkey=M
+
+//fortress
+[ofrt]
+Hotkey=U
+
+//great hall
+[ogre]
+Hotkey=H
+
+//spirit lodge
+[osld]
+Hotkey=S
+
+//stronghold
+[ostr]
+Hotkey=U
+
+//orc burrow
+[otrb]
+Hotkey=O
+
+//battle stations
+[Abtl]
+Hotkey=B
+
+//stand down from battle stations
+[Astd]
+Hotkey=D
+
+//reinforced orc burrow
+[orbr]
+Hotkey=O
+
+//tauren totem
+[otto]
+Hotkey=T
+
+//voodoo lounge
+[ovln]
+Hotkey=V
+
+//watch tower
+[owtw]
+Hotkey=W
+
+
+/////////////////////////////
+//Orc Heroes & Abilities
+/////////////////////////////
+
+[Obla]
+Hotkey=B
+
+// Wind Walk
+[AOwk]
+Hotkey=W
+Researchhotkey=W
+
+// Critical Strike
+[AOcr]
+Researchhotkey=C
+
+// Mirror Image
+[AOmi]
+Hotkey=R
+Researchhotkey=R
+
+// Bladestorm
+[AOww]
+Hotkey=B
+Researchhotkey=B
+
+[Ofar]
+Hotkey=F
+
+// Chain Lightning
+[AOcl]
+Hotkey=C
+Researchhotkey=C
+
+// Far Sight
+[AOfs]
+Hotkey=F
+Researchhotkey=F
+
+// Feral Spirit
+[AOsf]
+Hotkey=T
+Researchhotkey=T
+
+// Earthquake
+[AOeq]
+Hotkey=E
+Researchhotkey=E
+
+[Oshd]
+Hotkey=H
+
+// Healing Wave ÷Œ¡∆≤®
+[AOhw]
+Hotkey=E
+Researchhotkey=E
+
+// Serpent Ward
+[AOsw]
+Hotkey=W
+Researchhotkey=W
+
+// Hex
+[AOhx]
+Hotkey=X
+Researchhotkey=X
+
+// Voodoo
+[AOvd]
+Hotkey=V
+Researchhotkey=V
+
+[Otch]
+Hotkey=T
+
+
+// Shockwave
+[AOsh]
+Hotkey=W
+Researchhotkey=W
+
+// Endurance Aura
+[AOae]
+Researchhotkey=E
+
+// War Stomp (Chieftan)
+[AOws]
+Hotkey=T
+Researchhotkey=T
+
+// Reincarnation
+[AOre]
+Researchhotkey=R
