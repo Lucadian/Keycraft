@@ -66,21 +66,21 @@ Hotkey=S
 [Aprg]
 Hotkey=G
 
-// Bloodlust
+// Bloodlust 嗜血
 [Ablo]
 Hotkey=B
 Unhotkey=B
 
 
-// Lightning Shield
+// Lightning Shield 闪电盾
 [Alsh]
 Hotkey=L
 
-//tauren
+//tauren 牛头人
 [otau]
 Hotkey=T
 
-//troll batrider
+//troll batrider 巨魔蝙蝠
 [otbr]
 Hotkey=B
 
@@ -94,29 +94,29 @@ Unhotkey=C
 [owyv]
 Hotkey=W
 
-//spirit walker
+//spirit walker 灵魂行者
 [ospm]
 Hotkey=T
 
-// Ancestral Spirit
+// Ancestral Spirit   先祖之魂
 [Aast]
 Hotkey=C
 
-// Disenchant (new)
+// Disenchant (new) 消魔 驱散区域内的魔法效果，对敌对召唤单位造成250点伤害
 [Adcn]
 Hotkey=D
 
-// Corporeal Form
+// Corporeal Form 肉体形态
 [Acpf]
 Hotkey=F
 Unhotkey=F
 
-// Ethereal Form
+// Ethereal Form 灵魂形态
 [Aetf]
 Hotkey=F
 Unhotkey=F
 
-// Spirit Link
+// Spirit Link 灵魂连接
 [Aspl]
 Hotkey=R
 
@@ -125,7 +125,7 @@ Hotkey=R
 //Orc Bldgs, Upgrades & Abilities
 /////////////////////////////
 
-//orc melee weapon upgrades
+//orc melee weapon upgrades 
 [Rome]
 Hotkey=M,M,M
 
@@ -137,35 +137,35 @@ Hotkey=R,R,R
 [Roar]
 Hotkey=A,A,A
 
-//war drums upgrade
+//war drums upgrade 战鼓升级
 [Rwdm]
 Hotkey=D
 
-// pillage upgrade
+// pillage upgrade 掠夺升级
 [Ropg]
 Hotkey=G
 
-//berserker strength upgrade
+//berserker strength upgrade 
 [Robs]
 Hotkey=B
 
-//pulverize upgrade
+//pulverize upgrade 粉碎升级
 [Rows]
 Hotkey=P
 
-//ensnare upgrade
+//ensnare upgrade 诱捕升级
 [Roen]
 Hotkey=N
 
-//envenomed spears upgrade
+//envenomed spears upgrade 浸毒标枪
 [Rovs]
 Hotkey=E
 
-//witch doctor training upgrade
+//witch doctor training upgrade 巫医升级
 [Rowd]
 Hotkey=D,D
 
-//shaman training upgrade
+//shaman training upgrade 萨满升级
 [Rost]
 Hotkey=M,M
 
@@ -181,7 +181,7 @@ Hotkey=R
 [Rolf]
 Hotkey=L
 
-//backpack upgrade (orc)
+//backpack upgrade (orc) 背包升级
 [Ropm]
 Hotkey=B
 
@@ -221,43 +221,43 @@ Hotkey=M
 [ofrt]
 Hotkey=U
 
-//great hall
+//great hall 大厅
 [ogre]
 Hotkey=H
 
-//spirit lodge
+//spirit lodge 灵魂归宿
 [osld]
 Hotkey=S
 
-//stronghold
+//stronghold 要塞
 [ostr]
 Hotkey=U
 
-//orc burrow
+//orc burrow 地洞
 [otrb]
 Hotkey=O
 
-//battle stations
+//battle stations 战争动员（地洞）
 [Abtl]
 Hotkey=B
 
-//stand down from battle stations
+//stand down from battle stations 取消战争动员
 [Astd]
 Hotkey=D
 
-//reinforced orc burrow
+//reinforced orc burrow 强化地洞
 [orbr]
 Hotkey=O
 
-//tauren totem
+//tauren totem 牛头人图腾
 [otto]
 Hotkey=T
 
-//voodoo lounge
+//voodoo lounge 巫毒小屋
 [ovln]
 Hotkey=V
 
-//watch tower
+//watch tower 哨塔
 [owtw]
 Hotkey=W
 
@@ -265,33 +265,34 @@ Hotkey=W
 /////////////////////////////
 //Orc Heroes & Abilities
 /////////////////////////////
-
+// 剑圣
 [Obla]
 Hotkey=B
 
-// Wind Walk
+// Wind Walk 疾风步
 [AOwk]
 Hotkey=W
 Researchhotkey=W
 
-// Critical Strike
+// Critical Strike 致命一击
 [AOcr]
 Researchhotkey=C
 
-// Mirror Image
+// Mirror Image 镜像
 [AOmi]
 Hotkey=R
 Researchhotkey=R
 
-// Bladestorm
+// Bladestorm 剑刃风暴
 [AOww]
 Hotkey=B
 Researchhotkey=B
 
+// 先知
 [Ofar]
 Hotkey=F
 
-// Chain Lightning
+// Chain Lightning 闪电链
 [AOcl]
 Hotkey=C
 Researchhotkey=C
@@ -301,16 +302,17 @@ Researchhotkey=C
 Hotkey=F
 Researchhotkey=F
 
-// Feral Spirit
+// Feral Spirit 幽灵狼
 [AOsf]
 Hotkey=T
 Researchhotkey=T
 
-// Earthquake
+// Earthquake 地震术
 [AOeq]
 Hotkey=E
 Researchhotkey=E
 
+//巨魔巫医
 [Oshd]
 Hotkey=H
 
@@ -319,39 +321,40 @@ Hotkey=H
 Hotkey=E
 Researchhotkey=E
 
-// Serpent Ward
+// Serpent Ward  毒蛇守卫
 [AOsw]
 Hotkey=W
 Researchhotkey=W
 
-// Hex
+// Hex 妖术
 [AOhx]
 Hotkey=X
 Researchhotkey=X
 
-// Voodoo
+// Voodoo 巫毒
 [AOvd]
 Hotkey=V
 Researchhotkey=V
 
+
+//牛头人酋长
 [Otch]
 Hotkey=T
 
-
-// Shockwave
+// Shockwave 震荡波
 [AOsh]
 Hotkey=W
 Researchhotkey=W
 
-// Endurance Aura
+// Endurance Aura 坚韧光环
 [AOae]
 Researchhotkey=E
 
-// War Stomp (Chieftan)
+// War Stomp (Chieftan) 战争践踏
 [AOws]
 Hotkey=T
 Researchhotkey=T
 
-// Reincarnation
+// Reincarnation 复活
 [AOre]
 Researchhotkey=R
