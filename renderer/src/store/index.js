@@ -4,15 +4,18 @@ Vue.use(Vuex)
 
 
 import { arch_human } from '../config/arch_human'
-import { unit_human } from '../config/unit_human'
+import { arch_elf } from '../config/arch_elf'
 
+import { unit_human } from '../config/unit_human'
+import { unit_elf } from '../config/unit_elf'
+import { unit_orc } from '../config/unit_orc'
 
 
 
 export default new Vuex.Store({
   state: {
     camp:{
-      index:0,
+      index:1,
       names:[
         '人类联盟',
         '暗夜精灵',
@@ -22,14 +25,14 @@ export default new Vuex.Store({
       ],
       units:[
           unit_human,
-          [],
-          [],
+          unit_elf,
+          unit_orc,
           [],
           []
       ],
       archs:[
           arch_human,
-          [],
+          arch_elf,
           [],
           [],
           []

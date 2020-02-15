@@ -3,3 +3,413 @@
 //ºÚ°µ³Ç±¤
 //ÒÅÎïÁêÄ¹
 //µØÑ¨ ºÚ°µ¼ÀÌ³ Í¨ÁéËş
+
+//½¨Ôì (²»ËÀ)
+[CmdBuildUndead]
+Hotkey=B
+
+/////////////////////////////
+//Undead Units & Abilities
+/////////////////////////////
+
+//acolyte
+[uaco]
+Hotkey=C
+
+// Unsummon
+[Auns]
+Hotkey=U
+
+// Acolyte Harvest
+[Aaha]
+Hotkey=G
+Unhotkey=R
+
+// Restore (acolyte repair)  ĞŞÀí(ÊÌÉ®)
+[Arst]
+Hotkey=R
+Unhotkey=R
+
+//abomination
+[uabo]
+Hotkey=A
+
+// Cannibalize (abomination)
+[Acn2]
+Hotkey=C
+
+//banshee
+[uban]
+Hotkey=B
+
+// Curse
+[Acrs]
+Hotkey=C
+Unhotkey=C
+
+// Anti-magic Shell
+[Aams]
+Hotkey=N
+
+// Anti-magic Shell
+[Aam2]
+Hotkey=N
+
+// Possession
+[Apos]
+Hotkey=O
+
+// Possession
+[Aps2]
+Hotkey=O
+
+//crypt fiend
+[ucry]
+Hotkey=F
+
+// Web
+[Aweb]
+Hotkey=W
+Unhotkey=W
+
+// Burrow (crypt fiend)
+[Abur]
+Hotkey=B
+Unhotkey=B
+
+//frost wyrm
+[ufro]
+Hotkey=F
+
+//gargoyle
+[ugar]
+Hotkey=A
+
+// Stone Form
+[Astn]
+Hotkey=F
+Unhotkey=F
+
+//ghoul
+[ugho]
+Hotkey=G
+
+// Cannibalize (ghoul)
+[Acan]
+Hotkey=C
+
+//Î×Ê¦
+[unec]
+Hotkey=N
+
+// Raise Dead
+[Arai]
+Hotkey=R
+Unhotkey=R
+
+// Ğ°¶ñ¿ñÈÈ
+// [Auhf]
+// Hotkey=Q
+
+// Incite Unholy Frenzy
+[Auuf]
+Hotkey=Q
+
+// ²Ğ·Ï
+[Acri]
+Hotkey=E
+
+//meat wagon
+[umtw]
+Hotkey=E
+
+// Load Corpse
+[Amel]
+Hotkey=C
+Unhotkey=C
+
+// Unload Corpse
+[Amed]
+Hotkey=D
+
+//obsidian statue
+[uobs]
+Hotkey=S
+
+// Spirit Touch
+[Arpm]
+Hotkey=C
+Unhotkey=C
+
+// Essence of Blight
+[Arpl]
+Hotkey=B
+Unhotkey=B
+
+//destroyer
+[ubsp]
+Hotkey=T
+
+// Orb of Annihilation
+[Afak]
+Hotkey=O
+Unhotkey=O
+
+// Devour Magic
+[Advm]
+Hotkey=D
+
+
+// Absorb Mana
+[Aabs]
+Hotkey=B
+
+
+/////////////////////////////
+//Undead Bldgs, Upgrades & Abilities
+/////////////////////////////
+
+//destroy form upgrade
+[Rusp]
+Hotkey=T
+
+//unholy strength upgrades
+[Rume]
+Hotkey=S,S,S
+
+//creature attack upgrades
+[Rura]
+Hotkey=A,A,A
+
+//unholy armor upgrades
+[Ruar]
+Hotkey=U,U,U
+
+//creature carapace upgrades
+[Rucr]
+Hotkey=C,C,C
+
+//cannabalize upgrade
+[Ruac]
+Hotkey=C
+
+//ghoul frenzy upgrade
+[Rugf]
+Hotkey=Z
+
+//web upgrade
+[Ruwb]
+Hotkey=W
+
+//stone form upgrade
+[Rusf]
+Hotkey=S
+
+//necromancer training upgrades
+[Rune]
+Hotkey=E,E
+
+//banshee training upgrades
+[Ruba]
+Hotkey=A,A
+
+//freezing breath upgrade
+[Rufb]
+Hotkey=B
+
+//skeletal longevity upgrade
+[Rusl]
+Hotkey=S
+
+//disease cloud upgrade
+[Rupc]
+Hotkey=D
+
+//skeletal mastery upgrade
+[Rusm]
+Hotkey=M
+
+//burrow upgrade
+[Rubu]
+Hotkey=B
+
+//exhume corpses upgrade
+[Ruex]
+Hotkey=E
+
+//backpack upgrade
+[Rupm]
+EditorSuffix= (Undead)
+Hotkey=B
+
+//boneyard
+[ubon]
+Hotkey=B
+
+//sacrificial pit
+[usap]
+Hotkey=S
+
+// Sacrifice (Acolyte's button)
+[Alam]
+Hotkey=C
+
+//slaughterhouse
+[uslh]
+Hotkey=H
+
+//graveyard
+[ugrv]
+Hotkey=V
+
+//altar of darkness
+[uaod]
+Hotkey=A
+
+//necropolis
+[unpl]
+Hotkey=N
+
+//halls of the dead
+[unp1]
+Hotkey=U
+
+//black citadel
+[unp2]
+Hotkey=U
+
+//crypt
+[usep]
+Hotkey=C
+
+//temple of the damned
+[utod]
+Hotkey=T
+
+//tomb of relics
+[utom]
+Hotkey=R
+
+//haunted gold mine
+[ugol]
+Hotkey=G
+
+//ziggurat
+[uzig]
+Hotkey=Z
+
+//spirit tower
+[uzg1]
+Hotkey=T
+
+//nerubian tower
+[uzg2]
+Hotkey=N
+
+/////////////////////////////
+//Undead Heroes & Abilities
+//²»ËÀ×åÓ¢ĞÛ
+/////////////////////////////
+
+//crypt lord µØÑ¨ÁìÖ÷
+[Ucrl]
+Hotkey=C
+
+// Impale ´©´Ì
+[AUim]
+Hotkey=E
+Researchhotkey=E
+
+//spiked carapace ¼â´ÌÍâ¿Ç
+[AUts]
+Researchhotkey=S
+
+// Carrion Beetles ¸¯Èâ¼×³æ
+[AUcb]
+Hotkey=C
+Researchhotkey=C
+
+// Burrow (scarab lvl 2)
+[Abu2]
+Hotkey=B
+Unhotkey=B
+
+// Burrow (scarab lvl 3)
+[Abu3]
+Hotkey=B
+Unhotkey=B
+
+// Locust Swarm »ÈÈº
+[AUls]
+Hotkey=L
+Researchhotkey=L
+
+//ËÀÍöÆïÊ¿
+[Udea]
+Hotkey=D
+
+// ËÀÍö²øÈÆ
+[AUdc]
+Hotkey=C
+Researchhotkey=C
+
+// Unholy Aura Ğ°¶ñ¹â»·
+[AUau]
+Researchhotkey=E
+
+// Death Pact ËÀÍöÆõÔ¼
+[AUdp]
+Hotkey=R
+Researchhotkey=R
+
+// Animate Dead ËÀÍö¿ØÖÆ
+[AUan]
+Hotkey=F
+Researchhotkey=F
+
+//¿Ö¾åÄ§Íõ
+[Udre]
+Hotkey=R
+
+// Carrion Swarm ¸¯³ô·äÈº
+[AUcs]
+Hotkey=C
+Researchhotkey=C
+
+// Sleep ´ßÃß
+[AUsl]
+Hotkey=E
+Researchhotkey=E
+
+// Vampiric Aura ÎüÑª¹â»·
+[AUav]
+Researchhotkey=R
+
+//µØÓü»ğ
+[AUin]
+Hotkey=F
+Researchhotkey=F
+
+//Î×Ñı
+[Ulic]
+Hotkey=E
+
+// Frost Nova Ëª¶³ĞÂĞÇ
+[AUfn]
+Hotkey=C
+Researchhotkey=C
+
+// Frost Armor (Autocast, Lich)
+[AUfu]
+Hotkey=E
+Researchhotkey=E
+
+// Dark Ritual ºÚ°µÒÇÊ½
+[AUdr]
+Hotkey=R
+Researchhotkey=R
+
+// Death And Decay ËÀÍöµòÁã
+[AUdd]
+Hotkey=D
+Researchhotkey=D

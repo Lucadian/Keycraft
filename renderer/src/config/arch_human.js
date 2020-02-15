@@ -1,5 +1,6 @@
 export { arch_human }
 import { rallyPoint } from "./general_rallypoint"
+import { interact } from "./general_interact"
 
 let arch_human = {
     城镇中心:{
@@ -388,13 +389,7 @@ let arch_human = {
     人族商店:{
         ico:[3,7],
         btn:[
-            {
-                tag:'选择交易目标(共用技能)',
-                ico:[10,8],
-                pos:[4,3],
-                key:'[Anei]',
-                val:'F',
-            }
+            interact
         ]
     },
     人类建造:{

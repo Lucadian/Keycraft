@@ -163,7 +163,7 @@ Hotkey=R,R,R
 [Reuv]
 Hotkey=U
 
-//nature's blessing upgrade 
+//nature's blessing upgrade 自然的祝福
 [Renb]
 Hotkey=N
 
@@ -195,7 +195,7 @@ Hotkey=L,L
 [Resi]
 Hotkey=S
 
-//hippogryph taming upgrade
+//hippogryph taming upgrade 角鹰兽驯服
 [Reht]
 Hotkey=I
 

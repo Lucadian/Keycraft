@@ -25,7 +25,18 @@ main{
           &.icon_human{
             background-image:url('../../image/icon_human.png');
           }
-
+          &.icon_elf{
+            background-image:url('../../image/icon_elf.png');
+          }
+          &.icon_orc{
+            background-image:url('../../image/icon_orc.png');
+          }
+          &.icon_ud{
+            background-image:url('../../image/icon_ud.png');
+          }
+          //&.icon_neutral{
+          //  background-image:url('../../image/icon_neutral.png');
+          //}
           box-sizing: border-box;
           &::after{
             display: inline-block;
@@ -71,6 +82,18 @@ div#buttons{
     &.icon_human{
       background-image:url('../../image/icon_human.png');
     }
+    &.icon_elf{
+      background-image:url('../../image/icon_elf.png');
+    }
+    &.icon_orc{
+      background-image:url('../../image/icon_orc.png');
+    }
+    &.icon_ud{
+      background-image:url('../../image/icon_ud.png');
+    }
+    //&.icon_neutral{
+    //  background-image:url('../../image/icon_neutral.png');
+    //}
     box-sizing: border-box;
     transition: filter 0.4s;
     &::after{
