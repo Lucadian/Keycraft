@@ -6,7 +6,7 @@
                 <div @mouseup="showProps"
                      :style="setIcon(val)"
                      :class="{
-                        activated:key === pond.activated,
+                        activated:key === pond.activated && key !== '空位',
                         icon_human:camp.index === 0,
                         icon_elf:camp.index === 1,
                         icon_orc:camp.index === 2,
@@ -38,7 +38,7 @@
             ...mapMutations(['selectSound']),
             showProps(){
                 let name = event.currentTarget.getAttribute('name')
-                if(this.pond.activated !== name){
+                if(this.pond.activated !== name && name !== '空位'){
                     this.pond.activated = name
                     this.pond.props = this.camp.archs[this.camp.index][name].btn
                     this.pond.currentKey = ''

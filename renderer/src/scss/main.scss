@@ -1,7 +1,6 @@
 main{
   width: 875px;
   position: relative;
-  //background-color: rgba(150,255,255,.2);
   div.box{
     position: absolute;
     h2.subtitle{
@@ -21,7 +20,6 @@ main{
         div{
           width: 70px;
           height: 70px;
-          background-color: red;
           &.icon_human{
             background-image:url('../../image/icon_human.png');
           }
@@ -51,9 +49,7 @@ main{
             &::after{
               visibility: visible;
             }
-            //border-radius: 1px;
-            //border: 1px solid #261400;
-            //box-shadow: inset 0 0 36px -4px black;
+
           }
         }
       }

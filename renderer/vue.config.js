@@ -5,7 +5,7 @@ module.exports = {
 
     //输出的文件，其文件名是否添加哈希值
     filenameHashing:true,
-
+    publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
     // pages:{
     //     index:{
     //         entry: './src/main.js',

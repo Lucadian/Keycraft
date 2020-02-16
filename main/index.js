@@ -9,19 +9,19 @@ let browserWindow = null
 app.on('ready',function(){
 
     browserWindow = new electron.BrowserWindow({
-        width: 1280, height: 800,
-        minWidth: 1280, minHeight: 800,
+        width: 1680, height: 900,
+        minWidth: 1680, minHeight: 900,
         resizable: true,
         allowRunningInsecureContent: true,
         experimentalCanvasFeatures: true,
-        icon: './renderer/src/img/brain.png'
+        icon: path.resolve('./','renderer/dist/icon_fav.ico')
     })
 
-    Menu.setApplicationMenu(null)
+    // Menu.setApplicationMenu(null)
 
-    browserWindow.loadFile('./renderer/index.html')
-
-    // browserWindow.webContents.openDevTools()
+    browserWindow.loadFile(path.resolve('./','renderer/dist/index.html'))
+    // browserWindow.loadFile('D:\\9. Git\\Keycraft\\renderer\\dist\\index.html')
+    browserWindow.webContents.openDevTools()
 
     browserWindow.on('close',()=>{
         browserWindow = null

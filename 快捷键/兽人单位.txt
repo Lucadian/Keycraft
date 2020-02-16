@@ -145,7 +145,7 @@ Hotkey=D
 [Ropg]
 Hotkey=G
 
-//berserker strength upgrade 
+//berserker strength upgrade ¿ñ±©Á¦Á¿Éı¼¶
 [Robs]
 Hotkey=B
 
@@ -169,15 +169,15 @@ Hotkey=D,D
 [Rost]
 Hotkey=M,M
 
-//spiked barricades upgrade
+//spiked barricades upgrade ¼â´ÌÕÏ°­
 [Rosp]
 Hotkey=S,S
 
-//troll regeneration upgrade
+//troll regeneration upgrade ¾ŞÄ§ÔÙÉú
 [Rotr]
 Hotkey=R
 
-//liquid fire upgrade
+//liquid fire upgrade È¼ÉÕµ¯Éı¼¶
 [Rolf]
 Hotkey=L
 
@@ -193,11 +193,11 @@ Hotkey=R,R
 [Robk]
 Hotkey=E
 
-//reinforced defenses upgrade
+//reinforced defenses upgrade ·ÀÓù¼ÓÇ¿
 [Rorb]
 Hotkey=D
 
-//burning oil upgrade
+//burning oil upgrade 
 [Robf]
 Hotkey=N
 
@@ -209,7 +209,7 @@ Hotkey=A
 [obar]
 Hotkey=B
 
-//bestiary
+//bestiary ÊŞÀ¸
 [obea]
 Hotkey=E
 
@@ -217,7 +217,7 @@ Hotkey=E
 [ofor]
 Hotkey=M
 
-//fortress
+//fortress 
 [ofrt]
 Hotkey=U
 
