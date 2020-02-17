@@ -1,19 +1,30 @@
 {
   "name": "keycraft",
   "version": "1.0.0",
-  "description": "",
+  "description": "321",
   "main": "./main/index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+  },
+  "build": {
+    "appId": "keycraft"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lucadian/Keycraft.git"
   },
-  "author": "",
+  "author": "123",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lucadian/Keycraft/issues"
   },
-  "homepage": "https://github.com/Lucadian/Keycraft#readme"
+  "homepage": "https://github.com/Lucadian/Keycraft#readme",
+  "dependencies": {
+    "electron": "^7.1.11"
+  },
+  "devDependencies": {
+    "electron": "^7.1.11",
+    "electron-builder": "^22.3.2"
+  }
 }
