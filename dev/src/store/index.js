@@ -16,7 +16,7 @@ import { unit_orc } from '../config/unit_orc'
 export default new Vuex.Store({
   state: {
     camp:{
-      index:2,
+      index:0,
       names:[
         '人类联盟',
         '暗夜精灵',

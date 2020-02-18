@@ -4,7 +4,7 @@ module.exports = {
     outputDir:'./dist',
 
     //输出的文件，其文件名是否添加哈希值
-    filenameHashing:true,
+    filenameHashing:false,
     publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
     // pages:{
     //     index:{

@@ -25,6 +25,8 @@
                     this.camp.index = index
                     this.heavyClickSound()
                 }
+                AABB = 'CCCC'
+                alert(AABB)
             },
             clearPond(){
                     this.pond.activated  = ''
