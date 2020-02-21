@@ -1,24 +1,25 @@
 {
-  "name": "dev",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serv": "vue-cli-service serve",
-    "parc": "vue-cli-service build"
+  "main": "dist/app.html",
+  "name": "Keycraft",
+  "description": "",
+  "version": "1.1.0",
+  "keywords": [ "魔兽3", "改键" ],
+  "window": {
+    "title": "Keycraft",
+    "icon": "dev/img/icon_fav.ico",
+    "toolbar": false,
+    "frame": false,
+    "width": 1250,
+    "height": 880,
+    "position": "center",
+    "min_width": 1250,
+    "min_height": 880,
+    "resize": false
   },
-  "dependencies": {
-    "vue": "^2.6.11",
-    "vuex": "^3.1.2"
+  "webkit": {
+    "plugin": true,
+    "java": false,
+    "page-cache": false
   },
-  "devDependencies": {
-    "@vue/cli-plugin-vuex": "^4.2.0",
-    "@vue/cli-service": "^4.2.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+  "chromium-args" :"-allow-file-access-from-files"
 }

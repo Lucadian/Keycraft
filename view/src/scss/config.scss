@@ -1,0 +1,40 @@
+html,body{
+  padding: 0;margin: 0;
+  background-color: black;
+  user-select: none;
+}
+#app{
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 1250px;height: 880px;
+  margin: 0 auto;
+  background-image: url("../../image/mainBackground_withButtons.jpg");
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #ffd42b;
+  //text-shadow: 0 0 4px black,0 0 2px black;
+  cursor: url("../../image/cursor_small.png"),auto;
+}
+#closeButton{
+  position: absolute;top: 16px;right: 16px;
+  width: 30px;height:30px;
+  background-image: url("../../image/icon-close.png");
+  background-size: cover;
+  color: yellow;
+  &:active{
+    transform: translateY(1px) scale(0.97);
+  }
+  &:hover{
+    filter:brightness(1.4);
+  }
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@import 'aside.scss';
+@import 'main.scss';

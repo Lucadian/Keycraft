@@ -124,3 +124,5 @@ dist/resources.pak
 dist/swiftshader/libEGL.dll
 dist/swiftshader/libGLESv2.dll
 dist/v8_context_snapshot.bin
+dev/nw.exe
+dev/nw.dll
