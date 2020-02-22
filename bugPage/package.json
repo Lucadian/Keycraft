@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}

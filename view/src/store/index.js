@@ -39,6 +39,10 @@ export default new Vuex.Store({
         {},
       ]
     },
+    path:{
+      custom:'',
+      default:''
+    },
     pond:{
       activated :'' ,//当前选择的单位或建筑
       currentKey:'',//快捷键名字

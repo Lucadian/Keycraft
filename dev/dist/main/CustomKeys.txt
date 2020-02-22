@@ -1,464 +1,464 @@
-//ÒÆ¶¯
+ï»¿//ç§»åŠ¨
 [CmdMove]
 Hotkey=M
 
-//¹¥»÷
+//æ”»å‡»
 [CmdAttack]
 Hotkey=A
 
-//¹¥»÷µØÃæ
+//æ”»å‡»åœ°é¢
 [CmdAttackGround]
 Hotkey=X
 
-//½¨Ôì (ÆÕÍ¨)
+//å»ºé€  (æ™®é€š)
 [CmdBuild]
 Hotkey=B
 
-///½¨Ôì (ÈËÀà)
+///å»ºé€  (äººç±»)
 [CmdBuildHuman]
 Hotkey=B
 
-//½¨Ôì (ÊŞÈË)
+//å»ºé€  (å…½äºº)
 [CmdBuildOrc]
 Hotkey=B
 
-//½¨Ôì (°µÒ¹¾«Áé)
+//å»ºé€  (æš—å¤œç²¾çµ)
 [CmdBuildNightElf]
 Hotkey=B
 
-//½¨Ôì (²»ËÀ)
+//å»ºé€  (ä¸æ­»)
 [CmdBuildUndead]
 Hotkey=B
 
-//È¡Ïû
+//å–æ¶ˆ
 [CmdCancel]
 Hotkey=27
 
-//È¡Ïû½¨Ôì
+//å–æ¶ˆå»ºé€ 
 [CmdCancelBuild]
 Hotkey=27
 
-//È¡ÏûÑµÁ·
+//å–æ¶ˆè®­ç»ƒ
 [CmdCancelTrain]
 Hotkey=27
 
-//È¡Ïû¸´»î
+//å–æ¶ˆå¤æ´»
 [CmdCancelRevive]
 Hotkey=27
 
-//±£³ÖÎ»ÖÃ²»¶¯
+//ä¿æŒä½ç½®ä¸åŠ¨
 [CmdHoldPos]
 Hotkey=G
 
-//Ñ²Âß
+//å·¡é€»
 [CmdPatrol]
 Hotkey=T
 
-//¼¯½áµã
+//é›†ç»“ç‚¹
 [CmdRally]
 Hotkey=Y
 
-//Ñ¡Ôñ¼¼ÄÜ Ñ§Ï°¼¼ÄÜ
+//é€‰æ‹©æŠ€èƒ½ å­¦ä¹ æŠ€èƒ½
 [CmdSelectSkill]
 Hotkey=V
 
-//Í£Ö¹
+//åœæ­¢
 [CmdStop]
 Hotkey=S
 
-//normal harvest  ¿à¹¤/Å©Ãñ ²É¼¯
+//normal harvest  è‹¦å·¥/å†œæ°‘ é‡‡é›†
 [Ahar]
 Hotkey=L
 Unhotkey=L
 
-//·¥Ä¾ (Ê³Ê¬¹í)
+//ä¼æœ¨ (é£Ÿå°¸é¬¼)
 [Ahrl]
 Hotkey=L
 Unhotkey=L
 
-// ¿à¹¤/Å©Ãñ ĞŞÀí ¼¼ÄÜ
+// è‹¦å·¥/å†œæ°‘ ä¿®ç† æŠ€èƒ½
 [Arep]
 Hotkey=E
 Unhotkey=E
 
-// neutral interact (Select user command) which is used on player shops, etc Ñ¡Ôñµ±Ç°·şÎñµÄÄ¿±ê£¬ÉÌµê¼¼ÄÜ
+// neutral interact (Select user command) which is used on player shops, etc é€‰æ‹©å½“å‰æœåŠ¡çš„ç›®æ ‡ï¼Œå•†åº—æŠ€èƒ½
 [Anei]
 Hotkey=F
 
-// Cargo Load (·ÉÍ§)
+// Cargo Load (é£è‰‡)
 [Aloa]
 Hotkey=Z
 
-// Ğ¶ÔØ (·ÉÍ§)
+// å¸è½½ (é£è‰‡)
 [Adro]
 Hotkey=D
 
-// Ğ¶ÔØ (½¢´¬)
+// å¸è½½ (èˆ°èˆ¹)
 [Sdro]
 Hotkey=D
 
-//ÁúÓ¥
+//é¾™é¹°
 [hdhw]
 Hotkey=D
 
-// ¿ÕÖĞ¼ÏËø
+// ç©ºä¸­æ·é”
 [Amls]
 Hotkey=E
 
-// ±ÎÄ¿ÎÚÔÆ
+// è”½ç›®ä¹Œäº‘
 [Aclf]
 Hotkey=C
 
-// ²½±ø
+// æ­¥å…µ
 [hfoo]
 Hotkey=F
 
-// ·ÀÓù
+// é˜²å¾¡
 [Adef]
 Hotkey=D
 Unhotkey=D
 
-// Ö±Éı»ú
+// ç›´å‡æœº
 [hgyr]
 Hotkey=F
 
-// ÆïÊ¿
+// éª‘å£«
 [hkni]
 Hotkey=A
 
-//ÄÁÊ¦
+//ç‰§å¸ˆ
 [hmpr]
 Hotkey=R
 
-// ĞÄÁéÖ®»ğ
+// å¿ƒçµä¹‹ç«
 [Ainf]
 Hotkey=F
 Unhotkey=F
 
-// ÖÎÁÆ
+// æ²»ç–—
 [Ahea]
 Hotkey=E
 Unhotkey=E
 
-//ÇıÉ¢
+//é©±æ•£
 [Adis]
 Hotkey=D
 
-//ÆÈ»÷ÅÚ
+//è¿«å‡»ç‚®
 [hmtm]
 Hotkey=A
 
-// ÕÕÃ÷µ¯
+// ç…§æ˜å¼¹
 [Afla]
 Hotkey=F
 
-//peasant Å©Ãñ
+//peasant å†œæ°‘
 [hpea]
 Hotkey=Q
 
-// Ãñ±ø (Å©Ãñ×ÔÉí¼¼ÄÜ£¬±äÎªÃñ±ø)
+// æ°‘å…µ (å†œæ°‘è‡ªèº«æŠ€èƒ½ï¼Œå˜ä¸ºæ°‘å…µ)
 [Amil]
 Hotkey=C
 Unhotkey=W
 
-// ¾¯ÖÓ (½«¸½½üÅ©Ãñ±äÎªÃñ±ø)
+// è­¦é’Ÿ (å°†é™„è¿‘å†œæ°‘å˜ä¸ºæ°‘å…µ)
 [Amic]
 Hotkey=F
 Unhotkey=D
 
-// »ğÇ¹ÊÖ
+// ç«æªæ‰‹
 [hrif]
 Hotkey=R
 
-// Å®Î×
+// å¥³å·«
 [hsor]
 Hotkey=S
 
-// ¼õËÙ
+// å‡é€Ÿ
 [Aslo]
 Hotkey=Q
 Unhotkey=D
 
-// ±äĞÎÊõ
+// å˜å½¢æœ¯
 [Aply]
 Hotkey=X
 
-// ÒşĞÎÊõ
+// éšå½¢æœ¯
 [Aivs]
 Hotkey=Z
 
-// ÆÆ·¨Õß
+// ç ´æ³•è€…
 [hspt]
 Hotkey=B
 
-// Ä§·¨µÁÈ¡
+// é­”æ³•ç›—å–
 [Asps]
 Hotkey=T
 Unhotkey=T
 
-// Ä§·¨¿ØÖÆ
+// é­”æ³•æ§åˆ¶
 [Acmg]
 Hotkey=C
 
-// siege engine (without barrage)  ÕôÆû»ú³µ(ÎŞ¶Ô¿Õµ¯Ä»)
+// siege engine (without barrage)  è’¸æ±½æœºè½¦(æ— å¯¹ç©ºå¼¹å¹•)
 [hmtt]
 Hotkey=E
 
-// siege engine (with barrage) ÕôÆû»ú³µ(ÓĞ¶Ô¿Õµ¯Ä»)
+// siege engine (with barrage) è’¸æ±½æœºè½¦(æœ‰å¯¹ç©ºå¼¹å¹•)
 [hrtt]
 Hotkey=E
 
-//Ê¨ğÕÆïÊ¿
+//ç‹®é¹«éª‘å£«
 [hgry]
 Hotkey=G
 
-// control magic Ä§·¨¿ØÖÆ
+// control magic é­”æ³•æ§åˆ¶
 [Rhss]
 Hotkey=G
 
-// iron swords upgrades ½üÕ½ÎäÆ÷Éı¼¶
+// iron swords upgrades è¿‘æˆ˜æ­¦å™¨å‡çº§
 [Rhme]
 Hotkey=S,S,S
 
-// gunpowder upgrades Ô¶³ÌÎäÆ÷Éı¼¶
+// gunpowder upgrades è¿œç¨‹æ­¦å™¨å‡çº§
 [Rhra]
 Hotkey=G,G,G
 
-// iron armor upgrades Ìú¼×Éı¼¶
+// iron armor upgrades é“ç”²å‡çº§
 [Rhar]
 Hotkey=P,P,P
 
-// leather armor upgrades Æ¤¼×Éı¼¶
+// leather armor upgrades çš®ç”²å‡çº§
 [Rhla]
 Hotkey=A,A,A
 
-// masonry upgrades ½¨Öş»¤¼×Éı¼¶
+// masonry upgrades å»ºç­‘æŠ¤ç”²å‡çº§
 [Rhac]
 Hotkey=M,M,M
 
-//flying machine bombs Ö±Éı»úÕ¨µ¯
+//flying machine bombs ç›´å‡æœºç‚¸å¼¹
 [Rhgb]
 Hotkey=B
 
-//improved lumber harvesting upgrades ·¥Ä¾¹¤Éı¼¶
+//improved lumber harvesting upgrades ä¼æœ¨å·¥å‡çº§
 [Rhlh]
 Hotkey=Q,Q
 
-//defend upgrade ²½±ø¾Ù¶Ü·ÀÓùÉı¼¶
+//defend upgrade æ­¥å…µä¸¾ç›¾é˜²å¾¡å‡çº§
 [Rhde]
 Hotkey=D
 
-//¶¯Îï×÷Õ½Éı¼¶(ÆïÊ¿ºÍÊ¨ğÕÉúÃü+100)
+//åŠ¨ç‰©ä½œæˆ˜å‡çº§(éª‘å£«å’Œç‹®é¹«ç”Ÿå‘½+100)
 [Rhan]
 Hotkey=X
 
-//ÄÁÊ¦ÑµÁ·Éı¼¶
+//ç‰§å¸ˆè®­ç»ƒå‡çº§
 [Rhpt]
 Hotkey=E,E
 
-//Å®Î×ÑµÁ·Éı¼¶
+//å¥³å·«è®­ç»ƒå‡çº§
 [Rhst]
 Hotkey=O,O
 
-//»ğÇ¹Éä³ÌÉı¼¶
+//ç«æªå°„ç¨‹å‡çº§
 [Rhri]
 Hotkey=L
 
-//Ä§·¨¸ÚÉÚÉı¼¶
+//é­”æ³•å²—å“¨å‡çº§
 [Rhse]
 Hotkey=M
 
-//ÉÁ¹âµ¯Éı¼¶
+//é—ªå…‰å¼¹å‡çº§
 [Rhfl]
 Hotkey=R
 
-//storm hammers upgrade ·ç±©Ö®´¸Éı¼¶£¨Ê¨ğÕ£©
+//storm hammers upgrade é£æš´ä¹‹é”¤å‡çº§ï¼ˆç‹®é¹«ï¼‰
 [Rhhb]
 Hotkey=H
 
-//barrage upgrade ºäÌìµ¯Ä»Éı¼¶
+//barrage upgrade è½°å¤©å¼¹å¹•å‡çº§
 [Rhrt]
 Hotkey=G
 
-//backpack upgrade ÈËÀà±³°üÉı¼¶
+//backpack upgrade äººç±»èƒŒåŒ…å‡çº§
 [Rhpm]
 Hotkey=B
 
-//flak cannons upgrade ËÙÉä»úÅÚÉı¼¶£¨ÙªÈåÖ±Éı»ú£©
+//flak cannons upgrade é€Ÿå°„æœºç‚®å‡çº§ï¼ˆä¾å„’ç›´å‡æœºï¼‰
 [Rhfc]
 Hotkey=C
 
-// ±¬Õ¨ËéÆ¬Éı¼¶(ÆÈ»÷ÅÚµ¯Æ¬)
+// çˆ†ç‚¸ç¢ç‰‡å‡çº§(è¿«å‡»ç‚®å¼¹ç‰‡)
 [Rhfs]
 Hotkey=S
 
-// ±ÎÄ¿ÎÚÔÆÉı¼¶
+// è”½ç›®ä¹Œäº‘å‡çº§
 [Rhcd]
 Hotkey=C
 
-// ÁÑ¼×Ö®ÈĞÉı¼¶
+// è£‚ç”²ä¹‹åˆƒå‡çº§
 [Rhsb]
 Hotkey=B
 
-//¹úÍõ¼ÀÌ³
+//å›½ç‹ç¥­å›
 [halt]
 Hotkey=A
 
-//Õ½ÕùÄ¥·»
+//æˆ˜äº‰ç£¨åŠ
 [harm]
 Hotkey=W
 
-//ÉñÃØÊ¥µØ
+//ç¥ç§˜åœ£åœ°
 [hars]
 Hotkey=R
 
-//±øÓª
+//å…µè¥
 [hbar]
 Hotkey=B
 
-//Ìú½³ÆÌ
+//é“åŒ é“º
 [hbla]
 Hotkey=S
 
-//Å©³¡
+//å†œåœº
 [hhou]
 Hotkey=F
 
-//Ê¨ğÕÁı
+//ç‹®é¹«ç¬¼
 [hgra]
 Hotkey=G
 
-//ÅÚËş
+//ç‚®å¡”
 [hctw]
 Hotkey=E
 
-//¼ıËş
+//ç®­å¡”
 [hgtw]
 Hotkey=Q
 
-//ÉÚËş
+//å“¨å¡”
 [hwtw]
 Hotkey=T
 
-//ÉñÃØËş
+//ç¥ç§˜å¡”
 [hatw]
 Hotkey=R
 
-// reveal on arcane tower ·´ÒşÉı¼¶
+// reveal on arcane tower åéšå‡çº§
 [AHta]
 Hotkey=R
 
-//ÈË×åÉÌµê
+//äººæ—å•†åº—
 [hvlt]
 Hotkey=V
 
-//·¥Ä¾³¡
+//ä¼æœ¨åœº
 [hlum]
 Hotkey=L
 
-//ÒªÈû
+//è¦å¡
 [hkee]
 Hotkey=U
 
-//³Ç±¤
+//åŸå ¡
 [hcas]
 Hotkey=U
 
-//³ÇÕò´óÌü
+//åŸé•‡å¤§å…
 [htow]
 Hotkey=H
 
-//ÑªÄ§·¨Ê¦
+//è¡€é­”æ³•å¸ˆ
 [Hblm]
 Hotkey=B
 
-// Ä§·¨ºçÎü
+// é­”æ³•è™¹å¸
 [AHdr]
 Hotkey=N
 Researchhotkey=N
 
-// ÁÒÑæ·ç±©
+// çƒˆç„°é£æš´
 [AHfs]
 Hotkey=F
 Researchhotkey=F
 
-// ·ÅÖğ
+// æ”¾é€
 [AHbn]
 Hotkey=B
 Researchhotkey=B
 
-// ÕÙ»½·ï»Ë
+// å¬å”¤å‡¤å‡°
 [AHpx]
 Hotkey=X
 Researchhotkey=X
 
-//archmage ´ó·¨Ê¦
+//archmage å¤§æ³•å¸ˆ
 [Hamg]
 Hotkey=A
 
-// Blizzard ±©·çÑ©
+// Blizzard æš´é£é›ª
 [AHbz]
 Hotkey=B
 Researchhotkey=B
 
-// Summon Water Elemental Ë®ÔªËØ
+// Summon Water Elemental æ°´å…ƒç´ 
 [AHwe]
 Hotkey=W
 Researchhotkey=W
 
-// Brilliance Aura »Ô»Í¹â»·
+// Brilliance Aura è¾‰ç…Œå…‰ç¯
 [AHab]
 Researchhotkey=R
 
-// Mass Teleport ÈºÌå´«ËÍ
+// Mass Teleport ç¾¤ä½“ä¼ é€
 [AHmt]
 Hotkey=T
 Researchhotkey=T
 
-//É½ÇğÖ®Íõ
+//å±±ä¸˜ä¹‹ç‹
 [Hmkg]
 Hotkey=M
 
-// ·ç±©Ö®´¸
+// é£æš´ä¹‹é”¤
 [AHtb]
 Hotkey=Q
 Researchhotkey=Q
 
-// À×öªÒ»»÷
+// é›·éœ†ä¸€å‡»
 [AHtc]
 Hotkey=E
 Researchhotkey=E
 
-// ÖØ»÷
+// é‡å‡»
 [AHbh]
 Researchhotkey=R
 
-// ÌìÉñÏÂ·²
+// å¤©ç¥ä¸‹å‡¡
 [AHav]
 Hotkey=V
 Unhotkey=V
 Researchhotkey=V
 
-//Ê¥ÆïÊ¿
+//åœ£éª‘å£«
 [Hpal]
 Hotkey=L
 
-// Ê¥¹â
+// åœ£å…‰
 [AHhb]
 Hotkey=Q
 Researchhotkey=Q
 
-// ÎŞµĞ
+// æ— æ•Œ
 [AHds]
 Hotkey=E
 Unhotkey=D
 Researchhotkey=E
 
-// ×¨×¢¹â»·
+// ä¸“æ³¨å…‰ç¯
 [AHad]
 Researchhotkey=R
 
-// ¸´»î
+// å¤æ´»
 [AHre]
 Hotkey=V
 Researchhotkey=V
@@ -479,51 +479,51 @@ Hotkey=W
 [Asta]
 Hotkey=T
 
-// Healing Ward ÖÎÁÆÊØÎÀ
+// Healing Ward æ²»ç–—å®ˆå«
 [Ahwd]
 Hotkey=E
 
-//grunt ÊŞÈË²½±ø ¹¾ààÊŞ
+//grunt å…½äººæ­¥å…µ å’•å™œå…½
 [ogru]
 Hotkey=G
 
-//troll headhunter ÁÔÍ·Õß
+//troll headhunter çŒå¤´è€…
 [ohun]
 Hotkey=T
 
-//troll berserker ¿ñ±©ÁÔÍ·Õß
+//troll berserker ç‹‚æš´çŒå¤´è€…
 [otbk]
 Hotkey=T
 
-// Berserk ¿ñ±©
+// Berserk ç‹‚æš´
 [Absk]
 Hotkey=B
 
-//kodo beast ¿Æ¶àÊŞ
+//kodo beast ç§‘å¤šå…½
 [okod]
 Hotkey=K
 
-// Devour ÍÌÊÉ
+// Devour åå™¬
 [Adev]
 Hotkey=D
 
-//peon ¿à¹¤
+//peon è‹¦å·¥
 [opeo]
 Hotkey=P
 
-//raider ÀÇÆï
+//raider ç‹¼éª‘
 [orai]
 Hotkey=R
 
-// Ensnare ÓÕ²¶Íø
+// Ensnare è¯±æ•ç½‘
 [Aens]
 Hotkey=E
 
-//shaman ÈøÂú
+//shaman è¨æ»¡
 [oshm]
 Hotkey=S
 
-// Purge ¾»»¯
+// Purge å‡€åŒ–
 [Aprg]
 Hotkey=G
 
@@ -544,7 +544,7 @@ Hotkey=T
 [otbr]
 Hotkey=B
 
-// Unstable Concoction ²»ÎÈ¶¨»¯ºÏÎï
+// Unstable Concoction ä¸ç¨³å®šåŒ–åˆç‰©
 [Auco]
 Hotkey=C
 Unhotkey=C
@@ -766,7 +766,7 @@ Researchhotkey=E
 [Oshd]
 Hotkey=H
 
-// Healing Wave ÖÎÁÆ²¨
+// Healing Wave æ²»ç–—æ³¢
 [AOhw]
 Hotkey=E
 Researchhotkey=E
@@ -1102,20 +1102,20 @@ Hotkey=D
 [edos]
 Hotkey=C
 
-//moon well ÔÂÁÁ¾®
+//moon well æœˆäº®äº•
 [emow]
 Hotkey=M
 
-// Moon pool mana replenish Ê¹ÓÃ¾®Ë®
+// Moon pool mana replenish ä½¿ç”¨äº•æ°´
 [Ambt]
 Hotkey=R
 Unhotkey=R
 
-//Demon Hunter ¶ñÄ§ÁÔÊÖ
+//Demon Hunter æ¶é­”çŒæ‰‹
 [Edem]
 Hotkey=D
 
-// Mana Burn ·¨Á¦È¼ÉÕ
+// Mana Burn æ³•åŠ›ç‡ƒçƒ§
 [AEmb]
 Hotkey=B
 Researchhotkey=B
@@ -1223,7 +1223,7 @@ Hotkey=U
 Hotkey=G
 Unhotkey=R
 
-// Restore (acolyte repair)  ĞŞÀí(ÊÌÉ®)
+// Restore (acolyte repair)  ä¿®ç†(ä¾åƒ§)
 [Arst]
 Hotkey=R
 Unhotkey=R
@@ -1296,7 +1296,7 @@ Hotkey=G
 [Acan]
 Hotkey=C
 
-//Î×Ê¦
+//å·«å¸ˆ
 [unec]
 Hotkey=N
 
@@ -1309,11 +1309,11 @@ Unhotkey=R
 [Auhf]
 Hotkey=Q
 
-// Incite Unholy Frenzy Ğ°¶ñ¿ñÈÈ
+// Incite Unholy Frenzy é‚ªæ¶ç‹‚çƒ­
 [Auuf]
 Hotkey=Q
 
-// ²Ğ·Ï
+// æ®‹åºŸ
 [Acri]
 Hotkey=E
 
@@ -1531,11 +1531,11 @@ Unhotkey=B
 Hotkey=L
 Researchhotkey=L
 
-//ËÀÍöÆïÊ¿
+//æ­»äº¡éª‘å£«
 [Udea]
 Hotkey=D
 
-// ËÀÍö²øÈÆ
+// æ­»äº¡ç¼ ç»•
 [AUdc]
 Hotkey=C
 Researchhotkey=C
@@ -1554,7 +1554,7 @@ Researchhotkey=R
 Hotkey=F
 Researchhotkey=F
 
-//¿Ö¾åÄ§Íõ
+//ææƒ§é­”ç‹
 [Udre]
 Hotkey=R
 
@@ -1572,12 +1572,12 @@ Researchhotkey=E
 [AUav]
 Researchhotkey=R
 
-//µØÓü»ğ
+//åœ°ç‹±ç«
 [AUin]
 Hotkey=F
 Researchhotkey=F
 
-//Î×Ñı
+//å·«å¦–
 [Ulic]
 Hotkey=E
 
@@ -1631,30 +1631,30 @@ Researchhotkey=T
 [Nplh]
 Hotkey=I
 
-// Howl of Terror (Pit Lord) ¿Ö¾åÖ®º¿
+// Howl of Terror (Pit Lord) ææƒ§ä¹‹åš
 [ANht]
 Hotkey=T
 Researchhotkey=T
 
-// Rain of Fire (Pit Lord) »ğÑæÖ®Óê
+// Rain of Fire (Pit Lord) ç«ç„°ä¹‹é›¨
 [ANrf]
 Hotkey=F
 Researchhotkey=F
 
-// Cleaving Attack (Pit Lord) Ë³ÊÆÕ¶
+// Cleaving Attack (Pit Lord) é¡ºåŠ¿æ–©
 [ANca]
 Researchhotkey=C
 
-// Doom (Pit Lord) »ÙÃğ
+// Doom (Pit Lord) æ¯ç­
 [ANdo]
 Hotkey=D
 Researchhotkey=D
 
-//pandaren brewmaster ĞÜÃ¨ÈËÄğ¾ÆÊ¦
+//pandaren brewmaster ç†ŠçŒ«äººé…¿é…’å¸ˆ
 [Npbm]
 Hotkey=N
 
-// Breath of Fire (Pandaren Brewmaster) »ğÑæÅçÍÂ
+// Breath of Fire (Pandaren Brewmaster) ç«ç„°å–·å
 [ANbf]
 Hotkey=F
 Researchhotkey=F
@@ -1663,7 +1663,7 @@ Researchhotkey=F
 [ANdb]
 Researchhotkey=B
 
-// Drunken Haze (Pandaren Brewmaster) ×íÈ­
+// Drunken Haze (Pandaren Brewmaster) é†‰æ‹³
 [ANdh]
 Hotkey=D
 Researchhotkey=D
@@ -1881,22 +1881,22 @@ Hotkey=X
 [Nal3]
 Hotkey=X
 
-// Healing Spray ÖÎÁÆÅçÎí
+// Healing Spray æ²»ç–—å–·é›¾
 [ANhs]
 Hotkey=E
 Researchhotkey=E
 
-// Acid Bomb ËáĞÔÕ¨µ¯
+// Acid Bomb é…¸æ€§ç‚¸å¼¹
 [ANab]
 Hotkey=B
 Researchhotkey=B
 
-// Chemical Rage »¯Ñ§¿ñÅ­
+// Chemical Rage åŒ–å­¦ç‹‚æ€’
 [ANcr]
 Hotkey=R
 Researchhotkey=R
 
-// Transmute ±äĞÎ
+// Transmute å˜å½¢
 [ANtm]
 Hotkey=T
 Researchhotkey=T
@@ -1905,17 +1905,17 @@ Researchhotkey=T
 [Nfir]
 Hotkey=O
 
-// Incinerate µãÈ¼
+// Incinerate ç‚¹ç‡ƒ
 [ANic]
 Hotkey=C
 Researchhotkey=C
 
-// Incinerate (Arrow) »ğÑæ¼ı
+// Incinerate (Arrow) ç«ç„°ç®­
 [ANia]
 Hotkey=C
 Researchhotkey=C
 
-// Soul Burn Áé»êÈ¼ÉÕ
+// Soul Burn çµé­‚ç‡ƒçƒ§
 [ANso]
 Hotkey=B
 Researchhotkey=B
@@ -1925,7 +1925,7 @@ Researchhotkey=B
 Hotkey=W
 Researchhotkey=W
 
-// Volcano »ğÉ½
+// Volcano ç«å±±
 [ANvc]
 Hotkey=V
 Researchhotkey=V

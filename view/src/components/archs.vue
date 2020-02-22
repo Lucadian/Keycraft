@@ -10,7 +10,7 @@
                         icon_human:camp.index === 0,
                         icon_elf:camp.index === 1,
                         icon_orc:camp.index === 2,
-                        icon_undead:camp.index === 3,
+                        icon_ud:camp.index === 3,
                         icon_neutral:camp.index === 4,
                         }"
                      :name="key"

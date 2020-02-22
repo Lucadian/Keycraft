@@ -1,12 +1,16 @@
-let fs = require('fs')
-let path = require('path')
+
+require('dist/main/functions/initDefaultPath')() //为前端生成一个默认目录 path.default.txt
+
+function setCustomPath(path){
+    fs.writeFileSync('dist/main/template/path.custom.txt', path.toString())
+}
 
 function archive(){
 
     return {
         human:{
-            unit:require(path.resolve("./dist/main/template/human/unit")),
-            arch:require(path.resolve("./dist/main/template/human/arch"))
+            unit:require("dist/main/template/human/unit"),
+            arch:require("dist/main/template/human/arch")
         },
         elf:{
             unit:require("dist/main/template/elf/unit"),
@@ -18,7 +22,7 @@ function archive(){
         },
         ud:{
             unit:[],
-            arch:[]
+            arch:require("dist/main/template/ud/arch")
         },
         neutral:{
             unit:[],
@@ -28,6 +32,7 @@ function archive(){
 }
 
 function remap(key,val){
+    pot.saved = false
     let path = 'dist/main/template/keys.js'
     let keys = require(path)
     keys[key] = val

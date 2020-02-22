@@ -12,15 +12,15 @@ Hotkey=B
 //Undead Units & Abilities
 /////////////////////////////
 
-//acolyte
+//acolyte 寺僧
 [uaco]
 Hotkey=C
 
-// Unsummon
+// Unsummon 反召唤
 [Auns]
 Hotkey=U
 
-// Acolyte Harvest
+// Acolyte Harvest 寺僧采集
 [Aaha]
 Hotkey=G
 Unhotkey=R
@@ -30,24 +30,24 @@ Unhotkey=R
 Hotkey=R
 Unhotkey=R
 
-//abomination
+//abomination 憎恶
 [uabo]
 Hotkey=A
 
-// Cannibalize (abomination)
+// Cannibalize (abomination) 憎恶食尸
 [Acn2]
 Hotkey=C
 
-//banshee
+//banshee 女妖
 [uban]
 Hotkey=B
 
-// Curse
+// Curse 诅咒
 [Acrs]
 Hotkey=C
 Unhotkey=C
 
-// Anti-magic Shell
+// Anti-magic Shell 反魔法外壳
 [Aams]
 Hotkey=N
 
@@ -55,7 +55,7 @@ Hotkey=N
 [Aam2]
 Hotkey=N
 
-// Possession
+// Possession 占据
 [Apos]
 Hotkey=O
 
@@ -63,38 +63,38 @@ Hotkey=O
 [Aps2]
 Hotkey=O
 
-//crypt fiend
+//crypt fiend 穴居恶魔
 [ucry]
 Hotkey=F
 
-// Web
+// Web 捕获
 [Aweb]
 Hotkey=W
 Unhotkey=W
 
-// Burrow (crypt fiend)
+// Burrow (crypt fiend) 埋地
 [Abur]
 Hotkey=B
 Unhotkey=B
 
-//frost wyrm
+//frost wyrm 冰霜巨龙
 [ufro]
 Hotkey=F
 
-//gargoyle
+//gargoyle 石像鬼
 [ugar]
 Hotkey=A
 
-// Stone Form
+// Stone Form 石像形态
 [Astn]
 Hotkey=F
 Unhotkey=F
 
-//ghoul
+//ghoul 食尸鬼
 [ugho]
 Hotkey=G
 
-// Cannibalize (ghoul)
+// Cannibalize (ghoul) 食尸
 [Acan]
 Hotkey=C
 
@@ -102,7 +102,7 @@ Hotkey=C
 [unec]
 Hotkey=N
 
-// Raise Dead
+// Raise Dead 召唤骷髅
 [Arai]
 Hotkey=R
 Unhotkey=R
@@ -111,7 +111,7 @@ Unhotkey=R
 // [Auhf]
 // Hotkey=Q
 
-// Incite Unholy Frenzy
+// Incite Unholy Frenzy 邪恶狂热
 [Auuf]
 Hotkey=Q
 
@@ -119,48 +119,48 @@ Hotkey=Q
 [Acri]
 Hotkey=E
 
-//meat wagon
+//meat wagon 绞肉车
 [umtw]
 Hotkey=E
 
-// Load Corpse
+// Load Corpse 装载尸体
 [Amel]
 Hotkey=C
 Unhotkey=C
 
-// Unload Corpse
+// Unload Corpse 卸载尸体
 [Amed]
 Hotkey=D
 
-//obsidian statue
+//obsidian statue 十胜石雕像
 [uobs]
 Hotkey=S
 
-// Spirit Touch
+// Spirit Touch 灵魂触摸
 [Arpm]
 Hotkey=C
 Unhotkey=C
 
-// Essence of Blight
+// Essence of Blight 枯萎精髓
 [Arpl]
 Hotkey=B
 Unhotkey=B
 
-//destroyer
+//destroyer 毁灭者
 [ubsp]
 Hotkey=T
 
-// Orb of Annihilation
+// Orb of Annihilation 毁灭之球
 [Afak]
 Hotkey=O
 Unhotkey=O
 
-// Devour Magic
+// Devour Magic 吞噬魔法
 [Advm]
 Hotkey=D
 
 
-// Absorb Mana
+// Absorb Mana 吸魔
 [Aabs]
 Hotkey=B
 
@@ -169,140 +169,140 @@ Hotkey=B
 //Undead Bldgs, Upgrades & Abilities
 /////////////////////////////
 
-//destroy form upgrade
+//destroy form upgrade 毁灭者形态升级
 [Rusp]
 Hotkey=T
 
-//unholy strength upgrades
+//unholy strength upgrades 邪恶力量升级
 [Rume]
 Hotkey=S,S,S
 
-//creature attack upgrades
+//creature attack upgrades 生物攻击升级
 [Rura]
 Hotkey=A,A,A
 
-//unholy armor upgrades
+//unholy armor upgrades 邪恶护甲升级
 [Ruar]
 Hotkey=U,U,U
 
-//creature carapace upgrades
+//creature carapace upgrades 生物甲壳升级
 [Rucr]
 Hotkey=C,C,C
 
-//cannabalize upgrade
+//cannabalize upgrade 食尸升级 
 [Ruac]
 Hotkey=C
 
-//ghoul frenzy upgrade
+//ghoul frenzy upgrade 食尸鬼狂暴升级
 [Rugf]
 Hotkey=Z
 
-//web upgrade
+//web upgrade 捕获升级 网
 [Ruwb]
 Hotkey=W
 
-//stone form upgrade
+//stone form upgrade 石像形态升级
 [Rusf]
 Hotkey=S
 
-//necromancer training upgrades
+//necromancer training upgrades 巫师升级
 [Rune]
 Hotkey=E,E
 
-//banshee training upgrades
+//banshee training upgrades 女妖升级
 [Ruba]
 Hotkey=A,A
 
-//freezing breath upgrade
+//freezing breath upgrade 冰霜吐息
 [Rufb]
 Hotkey=B
 
-//skeletal longevity upgrade
+//skeletal longevity upgrade 骨质强化升级
 [Rusl]
 Hotkey=S
 
-//disease cloud upgrade
+//disease cloud upgrade 瘟疫毒雾升级
 [Rupc]
 Hotkey=D
 
-//skeletal mastery upgrade
+//skeletal mastery upgrade 骨质掌握升级
 [Rusm]
 Hotkey=M
 
-//burrow upgrade
+//burrow upgrade 潜地升级
 [Rubu]
 Hotkey=B
 
-//exhume corpses upgrade
+//exhume corpses upgrade 掘出尸体升级
 [Ruex]
 Hotkey=E
 
-//backpack upgrade
+//backpack upgrade  背包
 [Rupm]
 EditorSuffix= (Undead)
 Hotkey=B
 
-//boneyard
+//boneyard 埋骨地
 [ubon]
 Hotkey=B
 
-//sacrificial pit
+//sacrificial pit 献祭深渊
 [usap]
 Hotkey=S
 
-// Sacrifice (Acolyte's button)
+// Sacrifice (Acolyte's button) 献祭
 [Alam]
 Hotkey=C
 
-//slaughterhouse
+//slaughterhouse 屠宰场
 [uslh]
 Hotkey=H
 
-//graveyard
+//graveyard 坟场
 [ugrv]
 Hotkey=V
 
-//altar of darkness
+//altar of darkness 黑暗祭坛
 [uaod]
 Hotkey=A
 
-//necropolis
+//necropolis 大墓地
 [unpl]
 Hotkey=N
 
-//halls of the dead
+//halls of the dead 亡者大厅
 [unp1]
 Hotkey=U
 
-//black citadel
+//black citadel 黑暗城堡
 [unp2]
 Hotkey=U
 
-//crypt
+//crypt 地穴
 [usep]
 Hotkey=C
 
-//temple of the damned
+//temple of the damned 诅咒神庙
 [utod]
 Hotkey=T
 
-//tomb of relics
+//tomb of relics 古墓废墟
 [utom]
 Hotkey=R
 
-//haunted gold mine
+//haunted gold mine 闹鬼金矿
 [ugol]
 Hotkey=G
 
-//ziggurat
+//ziggurat 通灵塔
 [uzig]
 Hotkey=Z
 
-//spirit tower
+//spirit tower  幽灵塔
 [uzg1]
 Hotkey=T
 
-//nerubian tower
+//nerubian tower 蛛网怪塔
 [uzg2]
 Hotkey=N
 
