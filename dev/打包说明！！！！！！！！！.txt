@@ -1,0 +1,3 @@
+将 css img js media 目录 和 app.html package.json 打成一个压缩包，放到build目录内，改名 app.nw
+然后使用命令
+copy /b nw.exe+app.nw app.exe

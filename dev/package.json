@@ -1,12 +1,12 @@
 {
-  "main": "dist/app.html",
+  "main": "app.html",
   "name": "Keycraft",
   "description": "",
   "version": "1.1.0",
   "keywords": [ "魔兽3", "改键" ],
   "window": {
     "title": "Keycraft",
-    "icon": "dev/img/icon_fav.ico",
+    "icon": "img/icon_taskbar.png",
     "toolbar": false,
     "frame": false,
     "width": 1250,

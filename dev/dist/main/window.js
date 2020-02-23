@@ -34,8 +34,9 @@ function save(quitAfterSave){
     }
 
     //从模板的 path.custom.txt 中读取路径
-    let path = fs.readFileSync('dist/main/template/path.custom.txt').toString() + '/CustomKeys.txt'
     // let path = os.homedir() + '/Documents/Warcraft III/CustomKeyBindings/CustomKeys.txt'
+    let path = fs.readFileSync('dist/main/template/path.custom.txt').toString() + '/CustomKeys.txt'
+
     let keys = require('dist/main/template/keys.js')
     let maps = require('dist/main/template/maps.js')
     let tips = require('dist/main/template/tips.js')

@@ -36,7 +36,6 @@ main{
             background-image:url('../../image/icon_neutral.jpg');
           }
           box-sizing: border-box;
-          transition: filter 0.4s;
           &::after{
             display: inline-block;
             content: '';

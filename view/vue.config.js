@@ -1,7 +1,7 @@
 
 module.exports = {
     //输出路径
-    outputDir:'../dev/dist',
+    outputDir:'../dev',
 
     //输出的文件，其文件名是否添加哈希值
     filenameHashing:false,
