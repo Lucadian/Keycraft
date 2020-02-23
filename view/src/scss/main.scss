@@ -32,10 +32,11 @@ main{
           &.icon_ud{
             background-image:url('../../image/icon_ud.jpg');
           }
-          //&.icon_neutral{
-          //  background-image:url('../../image/icon_neutral.png');
-          //}
+          &.icon_neutral{
+            background-image:url('../../image/icon_neutral.jpg');
+          }
           box-sizing: border-box;
+          transition: filter 0.4s;
           &::after{
             display: inline-block;
             content: '';
@@ -87,9 +88,9 @@ div#buttons{
     &.icon_ud{
       background-image:url('../../image/icon_ud.jpg');
     }
-    //&.icon_neutral{
-    //  background-image:url('../../image/icon_neutral.png');
-    //}
+    &.icon_neutral{
+      background-image:url('../../image/icon_neutral.jpg');
+    }
     box-sizing: border-box;
     transition: filter 0.4s;
     &::after{

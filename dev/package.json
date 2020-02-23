@@ -8,7 +8,7 @@
     "title": "Keycraft",
     "icon": "dev/img/icon_fav.ico",
     "toolbar": false,
-    "frame": true,
+    "frame": false,
     "width": 1250,
     "height": 880,
     "position": "center",

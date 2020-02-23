@@ -1,0 +1,387 @@
+// Cargo Load (·ÉÍ§)
+[Aloa]
+Hotkey=Z
+
+// Ğ¶ÔØ (·ÉÍ§)
+[Adro]
+Hotkey=D
+
+// Ğ¶ÔØ (½¢´¬)
+[Sdro]
+Hotkey=D
+
+//////////////////////////////////////////////////////
+// Neutral heroes & neutral hero abilities
+// Includes neutral hero summoned unit abilities
+// Does not include mercenaries or mercenary abilities ÑÏ½û°üº¬¹ÍÓ¶±ø»ò¹ÍÓ¶±ø¼¼ÄÜ
+//////////////////////////////////////////////////////
+
+/////////////////////
+// Sea Witch Abilities
+// ÄÈåÈ
+/////////////////////
+
+//sea witch
+[Nngs]
+Hotkey=G
+
+// Mana Shield (Sea Witch)
+[ANms]
+Hotkey=N
+Unhotkey=N
+Researchhotkey=N
+
+// Forked Lightning (Sea Witch)
+[ANfl]
+Hotkey=F
+Researchhotkey=F
+
+// Frost Arrows (Sea Witch)
+[ANfa]
+Hotkey=R
+Unhotkey=R
+Researchhotkey=R
+
+// Tornado (Sea Witch)
+[ANto]
+Hotkey=T
+Researchhotkey=T
+
+/////////////////////
+// Pit Lord
+// ÉîÔ¨ÁìÖ÷
+/////////////////////
+
+//pit lord
+[Nplh]
+Hotkey=I
+
+// Howl of Terror (Pit Lord) ¿Ö¾åÖ®º¿
+[ANht]
+Hotkey=T
+Researchhotkey=T
+
+// Rain of Fire (Pit Lord) »ğÑæÖ®Óê
+[ANrf]
+Hotkey=F
+Researchhotkey=F
+
+// Cleaving Attack (Pit Lord) Ë³ÊÆÕ¶
+[ANca]
+Researchhotkey=C
+
+// Doom (Pit Lord) »ÙÃğ
+[ANdo]
+Hotkey=D
+Researchhotkey=D
+
+
+////////////////////////////////
+// Pandaren Brewmaster
+// ĞÜÃ¨ÈËÄğ¾ÆÊ¦
+////////////////////////////////
+
+//pandaren brewmaster ĞÜÃ¨ÈËÄğ¾ÆÊ¦
+[Npbm]
+Hotkey=N
+
+// Breath of Fire (Pandaren Brewmaster) »ğÑæÅçÍÂ
+[ANbf]
+Hotkey=F
+Researchhotkey=F
+
+// Drunken Brawler (Pandaren Brewmaster) ×íÈ­
+[ANdb]
+Researchhotkey=B
+
+// Drunken Haze (Pandaren Brewmaster) ¾Æ×íÃÔÎí
+[ANdh]
+Hotkey=D
+Researchhotkey=D
+
+// Storm, Earth, and Fire (Pandaren Brewmaster) À×Ãù£¬´óµØ ºÍ »ğÑæ
+[ANef]
+Hotkey=E
+Researchhotkey=E
+
+
+//////////////////////
+//Mini-Panda Abilities
+// ÃÔÄãĞÜÃ¨
+//////////////////////
+
+// Wind Walk (wind panda)
+[ANwk]
+Hotkey=W
+
+// cyclone (Wind panda + various creeps -- shared ability)
+[ACcy]
+Hotkey=C
+
+// dispel magic (wind panda + various creeps -- shared ability)
+[Adsm]
+Hotkey=D
+
+// Taunt (earth panda)
+[ANta]
+Hotkey=T
+
+
+////////////////////////
+// Beastmaster ÊŞÍõ
+////////////////////////
+
+//beastmaster
+[Nbst]
+Hotkey=S
+
+// Summon Bear (Beastmaster) 
+[ANsg]
+Hotkey=B
+Researchhotkey=B
+
+// Summon Quilbeast (Beastmaster)
+[ANsq]
+Hotkey=Q
+Researchhotkey=Q
+
+// Summon Hawk (Beastmaster)
+[ANsw]
+Hotkey=W
+Researchhotkey=W
+
+// Stampede (Beastmaster) ÊŞ¾ª
+[ANst]
+Hotkey=T
+Researchhotkey=T
+
+// Blink (beastmaster bear) Ã×É³ĞÜÉÁË¸
+[ANbl]
+Hotkey=B
+
+
+///////////////////////
+// Dark Ranger ºÚ°µÓÎÏÀ
+///////////////////////
+
+[Nbrn]
+Hotkey=R
+
+// Black Arrow (Dark Ranger)
+[ANba]
+Hotkey=B
+Researchhotkey=B
+
+// Silence (Dark Ranger) 
+[ANsi]
+Hotkey=E
+Researchhotkey=E
+
+// Life Drain  (Dark Ranger)
+[ANdr]
+Hotkey=D
+Researchhotkey=D
+
+// Charm (Dark Ranger)
+[ANch]
+Hotkey=C
+Researchhotkey=C
+
+
+///////////////////////
+// Tinker µØ¾«¹¤³ÌÊ¦
+///////////////////////
+
+// Tinker
+[Ntin]
+Hotkey=Z
+
+// Tinker (morph / robo-goblin)
+[Nrob]
+Hotkey=Z
+
+// Pocket Factory
+[ANsy]
+Hotkey=F
+Researchhotkey=F
+
+// Pocket Factory
+[ANs1]
+Hotkey=F
+Researchhotkey=F
+
+// Pocket Factory
+[ANs2]
+Hotkey=F
+Researchhotkey=F
+
+// Pocket Factory
+[ANs3]
+Hotkey=F
+Researchhotkey=F
+
+// Cluster Rockets
+[ANcs]
+Hotkey=R
+Researchhotkey=R
+
+// Cluster Rockets
+[ANc1]
+Hotkey=R
+Researchhotkey=R
+
+// Cluster Rockets
+[ANc2]
+Hotkey=R
+Researchhotkey=R
+
+// Cluster Rockets
+[ANc3]
+Hotkey=R
+Researchhotkey=R
+
+// Engineering Upgrade
+[ANeg]
+Hotkey=E
+Researchhotkey=E
+
+// Robo-Goblin
+[ANrg]
+Hotkey=B
+Unhotkey=T
+Researchhotkey=B
+
+// Robo-Goblin
+[ANg1]
+Hotkey=B
+Unhotkey=T
+Researchhotkey=B
+
+// Robo-Goblin
+[ANg2]
+Hotkey=B
+Unhotkey=T
+Researchhotkey=B
+
+// Robo-Goblin
+[ANg3]
+Hotkey=B
+Unhotkey=T
+Researchhotkey=B
+
+// Demolish
+[ANde]
+Hotkey=
+
+// Demolish
+[ANd1]
+Hotkey=
+
+// Demolish
+[ANd2]
+Hotkey=
+
+// Demolish
+[ANd3]
+Hotkey=
+
+[ANfy]
+Hotkey=
+
+[ANf1]
+Hotkey=
+
+[ANf2]
+Hotkey=
+
+[ANf3]
+Hotkey=
+
+// Kaboom! (Clockwerk goblin level 1)
+[Asdg]
+Hotkey=B
+Unhotkey=B
+
+// Kaboom! (Clockwerk goblin level 2)
+[Asd2]
+Hotkey=B
+Unhotkey=B
+
+// Kaboom! (Clockwerk goblin level 3)
+[Asd3]
+Hotkey=B
+Unhotkey=B
+
+
+///////////////////////
+// Alchemist Á¶½ğ
+///////////////////////
+
+//alchemist
+[Nalc]
+Hotkey=X
+
+//alchemist
+[Nalm]
+Hotkey=X
+
+//alchemist (morph, 2)
+[Nal2]
+Hotkey=X
+
+//alchemist (morph, 3)
+[Nal3]
+Hotkey=X
+
+// Healing Spray ÖÎÁÆÅçÎí
+[ANhs]
+Hotkey=E
+Researchhotkey=E
+
+// Acid Bomb ËáĞÔÕ¨µ¯
+[ANab]
+Hotkey=B
+Researchhotkey=B
+
+// Chemical Rage »¯Ñ§¿ñÅ­
+[ANcr]
+Hotkey=R
+Researchhotkey=R
+
+// Transmute ±äĞÎ
+[ANtm]
+Hotkey=T
+Researchhotkey=T
+
+
+///////////////////////
+// Fire Lord »ğÑæÁìÖ÷
+///////////////////////
+
+[Nfir]
+Hotkey=O
+
+// Incinerate µãÈ¼
+[ANic]
+Hotkey=C
+Researchhotkey=C
+
+// Incinerate (Arrow) »ğÑæ¼ı
+[ANia]
+Hotkey=C
+Researchhotkey=C
+
+// Soul Burn Áé»êÈ¼ÉÕ
+[ANso]
+Hotkey=B
+Researchhotkey=B
+
+// Summmon Lava Spawn ÕÙ»½ÈÛÑÒÖ®×¦
+[ANlm]
+Hotkey=W
+Researchhotkey=W
+
+// Volcano »ğÉ½
+[ANvc]
+Hotkey=V
+Researchhotkey=V

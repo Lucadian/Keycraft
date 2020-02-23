@@ -149,7 +149,7 @@ let arch = {
             {
                 tag:'幽灵塔',
                 tip:'',
-                ico:[11,6],
+                ico:[7,2],
                 pos:[1,3],
                 key:['uzg1'],
                 val:keys['uzg1'],
@@ -157,7 +157,7 @@ let arch = {
             {
                 tag:'蛛网怪塔',
                 tip:'',
-                ico:[12,6],
+                ico:[8,2],
                 pos:[2,3],
                 key:['uzg2'],
                 val:keys['uzg2'],

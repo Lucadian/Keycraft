@@ -1929,3 +1929,15 @@ Researchhotkey=W
 [ANvc]
 Hotkey=V
 Researchhotkey=V
+
+//战争践踏 末日守卫
+[Awrs]
+Hotkey=E
+
+//残废 末日守卫
+[ACcr]
+Hotkey=Q
+
+//火焰之雨 末日守卫
+[ACrf]
+Hotkey=F

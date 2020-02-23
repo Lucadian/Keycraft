@@ -4,7 +4,10 @@
             <div class="msg">
                 <div>设置 CustomKeys.txt 所在目录：</div>
                 <input id="inputPath" type="text" v-model="pathValue">
-                <div style="color: white;font-weight: normal;letter-spacing: 1px">注：如果快捷键保存后不生效，再修改此目录</div>
+                <div style="color: white;font-weight: normal;letter-spacing: 1px">注：快捷键文件将会保存到你所指定的目录</div>
+                <div style="color: white;font-weight: normal;letter-spacing: 1px;transform: translateX(36px)">
+                    如果快捷键保存后不生效，再修改此目录
+                </div>
             </div>
             <div class="btnBox">
                 <div @click="setCustomPath">确定</div>

@@ -1,6 +1,6 @@
 let fs = require("fs")
 
-let str = fs.readFileSync('../../CustomKeys.txt', 'utf-8').replace(/\r\n/g, "|")
+let str = fs.readFileSync('../originCustomKeys.txt', 'utf-8').replace(/\r\n/g, "|")
 
 // 将整个文件按照换行符插入 | 号，并根据 || 号将字符串转为数组
 let arr = str.replace(/\r\n/g, "|").split('||')

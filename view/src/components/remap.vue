@@ -82,7 +82,6 @@
                             this.pond.warning = '"' + this.pond.currentTag + '" 已设置为 ' + val
                         },100)
 
-                            // this.pond.currentKey = ''
                         this.pond.currentVal = val
                         this.pond.editing = false
                     }

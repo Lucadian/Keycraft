@@ -329,12 +329,12 @@ Researchhotkey=S
 Hotkey=C
 Researchhotkey=C
 
-// Burrow (scarab lvl 2)
+// Burrow (scarab lvl 2) ถÝตุ2
 [Abu2]
 Hotkey=B
 Unhotkey=B
 
-// Burrow (scarab lvl 3)
+// Burrow (scarab lvl 3) ถÝตุ3
 [Abu3]
 Hotkey=B
 Unhotkey=B

@@ -1680,7 +1680,7 @@ Researchhotkey=D
 //////////////////////////////////////////////////////
 // Neutral heroes & neutral hero abilities
 // Includes neutral hero summoned unit abilities
-// Does not include mercenaries or mercenary abilities
+// Does not include mercenaries or mercenary abilities 严禁包含雇佣兵或雇佣兵技能
 //////////////////////////////////////////////////////
 
 /////////////////////
