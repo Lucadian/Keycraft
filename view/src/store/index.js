@@ -108,6 +108,7 @@ export default new Vuex.Store({
         data.neutral.arch
       ]
     }
+
   },
   actions: {
 

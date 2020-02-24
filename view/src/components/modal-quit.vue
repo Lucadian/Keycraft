@@ -4,7 +4,6 @@
             <div class="msg">
                 <div>快捷键未保存，保存后才能使用</div>
                 <div>是否保存快捷键设置？</div>
-<!--                <div class="small">[ 需要在游戏的 "输入" 设置中使用 “自定义” 快捷键  ]</div>-->
             </div>
             <div class="btnBox">
                 <div @click="quit">退出</div>
@@ -30,6 +29,7 @@
 
 <style scoped lang="scss">
 #modal-quit{
+    z-index: 100;
     position: absolute;
     width: 100%;height: 100%;
     background-color: rgba(0,0,0,.6);

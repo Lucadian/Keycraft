@@ -1,4 +1,5 @@
-let keys = require('./keys.js')
+const storage = require('main/const/storage')
+let keys = require(storage + '/keys.js')
 
 module.exports = {
     互动:{

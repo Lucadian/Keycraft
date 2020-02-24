@@ -44,14 +44,15 @@
             }
         },
         created(){
-            this.path.default = fs.readFileSync('dist/main/template/path.default.txt')
-            this.pathValue = fs.readFileSync('dist/main/template/path.custom.txt')
+            this.path.default = fs.readFileSync(storage + '/path.default.txt')
+            this.pathValue = fs.readFileSync(storage + '/path.custom.txt')
         }
     }
 </script>
 
 <style scoped lang="scss">
 #modal-path{
+    z-index: 100;
     position: absolute;
     width: 100%;height: 100%;
     background-color: rgba(0,0,0,.6);

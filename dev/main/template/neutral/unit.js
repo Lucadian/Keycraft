@@ -1,6 +1,7 @@
+const storage = require('main/const/storage')
+let keys = require(storage + '/keys')
 
 let { 移动,停止,保持,攻击,巡逻,选择技能 } = require("../general_unit")
-let keys = require('../keys')
 
 let unit = {
     娜迦:{

@@ -1,6 +1,7 @@
+const storage = require('main/const/storage')
+let keys = require(storage + '/keys')
 
 let { 集结点,互动 } = require("../general_arch")
-let keys = require('../keys')
 
 let arch = {
     浮空城:{

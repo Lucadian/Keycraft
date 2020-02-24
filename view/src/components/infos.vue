@@ -4,17 +4,17 @@
             「 {{ pond.currentTag }} 」
         </div>
         <div class="info_2" v-if="pond.currentVal">{{ pond.currentTip }}</div>
-<!--        <div class="version">-->
-<!--            V 1.1-->
-<!--        </div>-->
-        <div class="bug" @click="openBugPage"  @mouseenter="showMsg" @mouseout="hideMsg" />
+
+        <div class="bug" @click="openBugPage"  @mouseenter="showMsg_bug" @mouseout="hideMsg_bug" />
         <transition name="fade">
-            <div class="msg" v-if="msg" >点击反馈BUG</div>
+            <div class="msg_bug" v-if="bug.msg" >反馈 BUG</div>
         </transition>
-<!--        <div class="weixin" @mouseenter="showQRCode = true" @mouseout="showQRCode = false"/>-->
-<!--        <transition name="fade">-->
-<!--            <div class="QRCode" v-if="showQRCode"/>-->
-<!--        </transition>-->
+
+        <div class="reset" @click="restore"  @mouseenter="showMsg_reset" @mouseout="hideMsg_reset" />
+        <transition name="fade">
+            <div class="msg_reset" v-if="reset.msg" >重置 / 修复</div>
+        </transition>
+
     </div>
 </template>
 
@@ -26,10 +26,17 @@
             return {
                 showQRCode:false,
                 holdQRCode:false,
-                msg:false,
-                hovered:false
+                bug:{
+                    msg:false,
+                    hovered:false
+                },
+                reset:{
+                    msg:false,
+                    hovered:false
+                }
             }
         },
+        props:['valid'],
         computed:{
             ...mapState(['pond'])
         },
@@ -40,16 +47,32 @@
             //
             //     },800)
             // }
-            showMsg(){
-                this.hovered = true
+            restore(){
+                this.metalClickSound()
+                this.valid.modalReset = true
+            },
+            showMsg_reset(){
+                this.reset.hovered = true
                 setTimeout(()=>{
-                    if(this.hovered)
-                        this.msg = true
+                    if(this.reset.hovered)
+                        this.reset.msg = true
                 },800)
             },
-            hideMsg(){
-                this.hovered = false
-                this.msg = false
+            hideMsg_reset(){
+                this.reset.hovered = false
+                this.reset.msg = false
+            },
+
+            showMsg_bug(){
+                this.bug.hovered = true
+                setTimeout(()=>{
+                    if(this.bug.hovered)
+                        this.bug.msg = true
+                },800)
+            },
+            hideMsg_bug(){
+                this.bug.hovered = false
+                this.bug.msg = false
             },
             openBugPage(){
                 this.metalClickSound()

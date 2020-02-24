@@ -1,5 +1,8 @@
+const storage = require('main/const/storage')
+let keys = require(storage + '/keys')
+
 let { 互动 } = require("../general_arch")
-let keys = require('../keys')
+
 
 let arch = {
     地精商店:{

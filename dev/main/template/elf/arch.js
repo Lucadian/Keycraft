@@ -1,6 +1,8 @@
+const storage = require('main/const/storage')
+let keys = require(storage + '/keys')
 
 let { 吃树,拔起,互动,集结点 } = require("../general_arch")
-let keys = require('../keys')
+
 
 let arch = {
     生命之树:{

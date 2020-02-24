@@ -1,5 +1,6 @@
 let win = nw.Window.get()
 
+
 let pot = {
     saved:true,
     modal:false,
@@ -30,16 +31,16 @@ function quit() {
 function save(quitAfterSave){
     pot.saving = true
     if(os.platform() !== 'win32'){
-        alert('若保存后自定义快捷键无效，请使用导出功能，将自定义快捷键导出，然后手动覆盖即可')
+        alert('若保存后自定义快捷键无效，请设置 CustomKeys.txt 的存放目录')
     }
 
     //从模板的 path.custom.txt 中读取路径
     // let path = os.homedir() + '/Documents/Warcraft III/CustomKeyBindings/CustomKeys.txt'
-    let path = fs.readFileSync('main/template/path.custom.txt').toString() + '/CustomKeys.txt'
+    let path = fs.readFileSync(storage + '/path.custom.txt').toString() + '/CustomKeys.txt'
 
-    let keys = require('main/template/keys.js')
-    let maps = require('main/template/maps.js')
-    let tips = require('main/template/tips.js')
+    let keys = require(storage + '/keys.js')
+    let maps = require(storage + '/maps.js')
+    let tips = require(storage + '/tips.js')
 
     let CustomKeys = ''
 
@@ -89,5 +90,26 @@ function openBugPage(){
 
 }
 
+function deleteStorage(){
+    deleteFolder(storage)
+    win.close(true)
+}
+
+
+function deleteFolder(path) {
+    let files = [];
+    if (fs.existsSync(path)) {
+        files = fs.readdirSync(path);
+        files.forEach(function (file, index) {
+            let curPath = path + "/" + file;
+            if (fs.statSync(curPath).isDirectory()) {
+                deleteFolder(curPath);
+            } else {
+                fs.unlinkSync(curPath);
+            }
+        });
+        fs.rmdirSync(path);
+    }
+}
 
 

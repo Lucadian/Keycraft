@@ -1,6 +1,4 @@
 
-require('main/functions/initDefaultPath')() //为前端生成一个默认目录 path.default.txt
-
 function setCustomPath(path){
     path = path.toString()
 
@@ -9,11 +7,10 @@ function setCustomPath(path){
        path =  path.substr(0,path.length-1)
     }
 
-    fs.writeFileSync('main/template/path.custom.txt', path)
+    fs.writeFileSync(storage + '/path.custom.txt', path)
 }
 
 function archive(){
-
     return {
         human:{
             unit:require("main/template/human/unit"),
@@ -38,9 +35,10 @@ function archive(){
     }
 }
 
+
 function remap(key,val){
     pot.saved = false
-    let path = 'main/template/keys.js'
+    let path = storage + '/keys.js'
     let keys = require(path)
     keys[key] = val
     fs.writeFileSync(path, 'module.exports = ' + JSON.stringify(keys))

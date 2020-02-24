@@ -208,17 +208,20 @@ div#infos{
     margin-top: 10px;
     letter-spacing: 2px;
   }
-  //div.version{
-  //  font-size: 16px;
-  //  position: absolute;
-  //  bottom: 0;left: 0;
-  //}
-  div.msg{
+
+  div.msg_bug{
     position: absolute;
-    bottom:40px;right: -22px;
+    bottom:40px;right: -16px;
     background-color: rgba(250,250,250,.1);
-    width: 130px;height: 40px;
-    text-align: center;line-height: 40px;
+    width: 118px;height: 50px;
+    text-align: center;line-height: 50px;
+  }
+  div.msg_reset{
+    position: absolute;
+    bottom:40px;right: 51px;
+    background-color: rgba(250,250,250,.1);
+    width: 118px;height: 50px;
+    text-align: center;line-height: 50px;
   }
   div.bug{
     width: 59px;height: 35px;
@@ -245,33 +248,29 @@ div#infos{
       box-shadow: 0 1px 4px black inset;
     }
   }
-  //div.weixin{
-  //  width: 11px;height: 11px;
-  //  background-image: url("../../image/icon_qrcode.png");
-  //  background-repeat: no-repeat;
-  //  position: absolute;
-  //  bottom: 0;right: 15px;
-  //  &::before{
-  //    font-size: 13px;
-  //    width: 100px;
-  //    position: relative;
-  //    top: -4px;left: -66px;
-  //    display: inline-block;content: 'BUG 反馈';
-  //  }
-  //}
-  //div.QRCode{
-  //  width: 180px;height: 180px;
-  //  position: absolute;
-  //  bottom: 20px;right: -32px;
-  //  background-color: rgba(255,255,255,.09);
-  //  border-radius: 4px;
-  //  &::before{
-  //    width: 140px;height: 140px;
-  //    margin: 20px;
-  //    background-size: cover;
-  //    display: inline-block;content: '';
-  //    background-image: url("../../image/wechat.png");
-  //    box-shadow: 0 0 16px black;
-  //  }
-  //}
+  div.reset{
+    width: 59px;height: 35px;
+    position: absolute;bottom: -4px;right: 80px;
+    background-image: url("../../image/btn_bug_bg.png");
+    &::before{
+      color: #442d0c;
+      text-shadow: none;
+      font-size: 12px;
+      text-align: center;line-height: 20px;
+      display: inline-block;content: 'RES';
+      width: 37px;height: 18px;
+      background-image: url("../../image/btn_bug.png");
+      transform: translateX(11px) translateY(7px);
+      filter: brightness(1.1);
+    }
+    &:hover::before{
+      color: black;
+      filter: brightness(1.3);
+    }
+    &:active::before{
+      color: black;
+      filter: brightness(0.9);
+      box-shadow: 0 1px 4px black inset;
+    }
+  }
 }

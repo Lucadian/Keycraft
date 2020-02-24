@@ -250,3 +250,187 @@ build/魔兽3重制版自定义按键/resources.pak
 build/魔兽3重制版自定义按键/swiftshader/libEGL.dll
 build/魔兽3重制版自定义按键/swiftshader/libGLESv2.dll
 build/魔兽3重制版自定义按键/v8_context_snapshot.bin
+build/app/app.html
+build/app/css/app.css
+build/app/img/btn_bug_bg.png
+build/app/img/btnCamp_active.png
+build/app/img/btnCamp_actived.png
+build/app/img/btnCamp_hover.png
+build/app/img/btnCamp_normal.png
+build/app/img/btnEdit.png
+build/app/img/btnOption_active.png
+build/app/img/btnOption_hover.png
+build/app/img/btnOption_normal.png
+build/app/img/btnSave_active.png
+build/app/img/btnSave_hover.png
+build/app/img/btnSave_normal.png
+build/app/img/cursor_small.png
+build/app/img/icon_elf.jpg
+build/app/img/icon_frame.png
+build/app/img/icon_frame_dark.png
+build/app/img/icon_human.jpg
+build/app/img/icon_neutral.jpg
+build/app/img/icon_orc.jpg
+build/app/img/icon_taskbar.png
+build/app/img/icon_ud.jpg
+build/app/img/mainBackground_withButtons.jpg
+build/app/img/modal.png
+build/app/js/app.js
+build/app/js/chunk-vendors.js
+build/app/main/archive.js
+build/app/main/assets/keys.js
+build/app/main/assets/maps.js
+build/app/main/assets/origin.txt
+build/app/main/assets/tips.js
+build/app/main/const/storage.js
+build/app/main/init.js
+build/app/main/lib/createKeys.js
+build/app/main/lib/createMaps.js
+build/app/main/lib/createTips.js
+build/app/main/lib/getVal.js
+build/app/main/modules.js
+build/app/main/template/elf/arch.js
+build/app/main/template/elf/unit.js
+build/app/main/template/general_arch.js
+build/app/main/template/general_unit.js
+build/app/main/template/human/arch.js
+build/app/main/template/human/unit.js
+build/app/main/template/neutral/arch.js
+build/app/main/template/neutral/unit.js
+build/app/main/template/orc/arch.js
+build/app/main/template/orc/unit.js
+build/app/main/template/ud/arch.js
+build/app/main/template/ud/unit.js
+build/app/main/window.js
+build/app/media/cancel.ogg
+build/app/media/metalClick.ogg
+build/app/media/war3checkClick.ogg
+build/app/media/war3heavyClick.ogg
+build/app/media/war3lightClick.ogg
+build/app/media/war3selectClick.ogg
+build/app/package.json
+build/Keycraft 1.2.rar
+build/Keycraft 1.2/d3dcompiler_47.dll
+build/Keycraft 1.2/ffmpeg.dll
+build/Keycraft 1.2/icudtl.dat
+build/Keycraft 1.2/libEGL.dll
+build/Keycraft 1.2/libGLESv2.dll
+build/Keycraft 1.2/locales/am.pak
+build/Keycraft 1.2/locales/am.pak.info
+build/Keycraft 1.2/locales/ar.pak
+build/Keycraft 1.2/locales/ar.pak.info
+build/Keycraft 1.2/locales/bg.pak
+build/Keycraft 1.2/locales/bg.pak.info
+build/Keycraft 1.2/locales/bn.pak
+build/Keycraft 1.2/locales/bn.pak.info
+build/Keycraft 1.2/locales/ca.pak
+build/Keycraft 1.2/locales/ca.pak.info
+build/Keycraft 1.2/locales/cs.pak
+build/Keycraft 1.2/locales/cs.pak.info
+build/Keycraft 1.2/locales/da.pak
+build/Keycraft 1.2/locales/da.pak.info
+build/Keycraft 1.2/locales/de.pak
+build/Keycraft 1.2/locales/de.pak.info
+build/Keycraft 1.2/locales/el.pak
+build/Keycraft 1.2/locales/el.pak.info
+build/Keycraft 1.2/locales/en-GB.pak
+build/Keycraft 1.2/locales/en-GB.pak.info
+build/Keycraft 1.2/locales/en-US.pak
+build/Keycraft 1.2/locales/en-US.pak.info
+build/Keycraft 1.2/locales/es-419.pak
+build/Keycraft 1.2/locales/es-419.pak.info
+build/Keycraft 1.2/locales/es.pak
+build/Keycraft 1.2/locales/es.pak.info
+build/Keycraft 1.2/locales/et.pak
+build/Keycraft 1.2/locales/et.pak.info
+build/Keycraft 1.2/locales/fa.pak
+build/Keycraft 1.2/locales/fa.pak.info
+build/Keycraft 1.2/locales/fi.pak
+build/Keycraft 1.2/locales/fi.pak.info
+build/Keycraft 1.2/locales/fil.pak
+build/Keycraft 1.2/locales/fil.pak.info
+build/Keycraft 1.2/locales/fr.pak
+build/Keycraft 1.2/locales/fr.pak.info
+build/Keycraft 1.2/locales/gu.pak
+build/Keycraft 1.2/locales/gu.pak.info
+build/Keycraft 1.2/locales/he.pak
+build/Keycraft 1.2/locales/he.pak.info
+build/Keycraft 1.2/locales/hi.pak
+build/Keycraft 1.2/locales/hi.pak.info
+build/Keycraft 1.2/locales/hr.pak
+build/Keycraft 1.2/locales/hr.pak.info
+build/Keycraft 1.2/locales/hu.pak
+build/Keycraft 1.2/locales/hu.pak.info
+build/Keycraft 1.2/locales/id.pak
+build/Keycraft 1.2/locales/id.pak.info
+build/Keycraft 1.2/locales/it.pak
+build/Keycraft 1.2/locales/it.pak.info
+build/Keycraft 1.2/locales/ja.pak
+build/Keycraft 1.2/locales/ja.pak.info
+build/Keycraft 1.2/locales/kn.pak
+build/Keycraft 1.2/locales/kn.pak.info
+build/Keycraft 1.2/locales/ko.pak
+build/Keycraft 1.2/locales/ko.pak.info
+build/Keycraft 1.2/locales/lt.pak
+build/Keycraft 1.2/locales/lt.pak.info
+build/Keycraft 1.2/locales/lv.pak
+build/Keycraft 1.2/locales/lv.pak.info
+build/Keycraft 1.2/locales/ml.pak
+build/Keycraft 1.2/locales/ml.pak.info
+build/Keycraft 1.2/locales/mr.pak
+build/Keycraft 1.2/locales/mr.pak.info
+build/Keycraft 1.2/locales/ms.pak
+build/Keycraft 1.2/locales/ms.pak.info
+build/Keycraft 1.2/locales/nb.pak
+build/Keycraft 1.2/locales/nb.pak.info
+build/Keycraft 1.2/locales/nl.pak
+build/Keycraft 1.2/locales/nl.pak.info
+build/Keycraft 1.2/locales/pl.pak
+build/Keycraft 1.2/locales/pl.pak.info
+build/Keycraft 1.2/locales/pt-BR.pak
+build/Keycraft 1.2/locales/pt-BR.pak.info
+build/Keycraft 1.2/locales/pt-PT.pak
+build/Keycraft 1.2/locales/pt-PT.pak.info
+build/Keycraft 1.2/locales/ro.pak
+build/Keycraft 1.2/locales/ro.pak.info
+build/Keycraft 1.2/locales/ru.pak
+build/Keycraft 1.2/locales/ru.pak.info
+build/Keycraft 1.2/locales/sk.pak
+build/Keycraft 1.2/locales/sk.pak.info
+build/Keycraft 1.2/locales/sl.pak
+build/Keycraft 1.2/locales/sl.pak.info
+build/Keycraft 1.2/locales/sr.pak
+build/Keycraft 1.2/locales/sr.pak.info
+build/Keycraft 1.2/locales/sv.pak
+build/Keycraft 1.2/locales/sv.pak.info
+build/Keycraft 1.2/locales/sw.pak
+build/Keycraft 1.2/locales/sw.pak.info
+build/Keycraft 1.2/locales/ta.pak
+build/Keycraft 1.2/locales/ta.pak.info
+build/Keycraft 1.2/locales/te.pak
+build/Keycraft 1.2/locales/te.pak.info
+build/Keycraft 1.2/locales/th.pak
+build/Keycraft 1.2/locales/th.pak.info
+build/Keycraft 1.2/locales/tr.pak
+build/Keycraft 1.2/locales/tr.pak.info
+build/Keycraft 1.2/locales/uk.pak
+build/Keycraft 1.2/locales/uk.pak.info
+build/Keycraft 1.2/locales/vi.pak
+build/Keycraft 1.2/locales/vi.pak.info
+build/Keycraft 1.2/locales/zh-CN.pak
+build/Keycraft 1.2/locales/zh-CN.pak.info
+build/Keycraft 1.2/locales/zh-TW.pak
+build/Keycraft 1.2/locales/zh-TW.pak.info
+build/Keycraft 1.2/natives_blob.bin
+build/Keycraft 1.2/node.dll
+build/Keycraft 1.2/nw.dll
+build/Keycraft 1.2/nw_100_percent.pak
+build/Keycraft 1.2/nw_200_percent.pak
+build/Keycraft 1.2/nw_elf.dll
+build/Keycraft 1.2/resources.pak
+build/Keycraft 1.2/swiftshader/libEGL.dll
+build/Keycraft 1.2/swiftshader/libGLESv2.dll
+build/Keycraft 1.2/v8_context_snapshot.bin
+build/Keycraft 1.2/魔兽3重制版自定义按键 V1.2.exe
+build/package.json
+build/打包命令.txt

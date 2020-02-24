@@ -11,11 +11,12 @@
       <archs/>
       <props/>
       <remap/>
-      <infos/>
+      <infos :valid="valid"/>
     </main>
     <sound/>
     <modal-quit/>
     <modal-path :valid="valid"/>
+    <modal-reset :valid="valid"/>
     <div id="closeButton" v-if="!valid.modalPath" @click="closeWindow"/>
   </div>
 </template>
@@ -29,6 +30,7 @@
   import infos from "./components/infos.vue"
   import modalQuit from "./components/modal-quit.vue"
   import modalPath from "./components/modal-path.vue"
+  import modalReset from "./components/modal-reset.vue"
 
   import { mapState,mapMutations } from 'vuex'
 
@@ -36,7 +38,8 @@
     data(){
       return {
         valid:{
-          modalPath:false
+          modalPath:false,
+          modalReset:false
         }
       }
     },
@@ -60,6 +63,7 @@
           this.pond.currentVal = ''
           this.pond.editing = false
         }
+        return false
       },
       closeWindow(){
         this.cancelSound()
@@ -67,7 +71,7 @@
       }
     },
     components:{
-        sound,camps,units,archs,props,remap,infos,modalQuit,modalPath
+        sound,camps,units,archs,props,remap,infos,modalQuit,modalPath,modalReset
     },
     created(){
       this.updateArchive()
