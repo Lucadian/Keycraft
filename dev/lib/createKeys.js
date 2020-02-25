@@ -1,6 +1,6 @@
 
 let fs = require("fs")
-let str = fs.readFileSync('../originCustomKeys.txt', 'utf-8').replace(/\r\n/g, "|")
+let str = fs.readFileSync('./origin.txt', 'utf-8').replace(/\r\n/g, "|")
 let arr = str.replace(/\r\n/g, "|").split('||')
 
 let keys = {}
@@ -21,5 +21,5 @@ for(let i=0;i<arr.length;i++){
 
 }
 
-fs.writeFileSync('../keys.js', 'module.exports = ' + JSON.stringify(keys))
+fs.writeFileSync('./keys.js', 'module.exports = ' + JSON.stringify(keys))
 

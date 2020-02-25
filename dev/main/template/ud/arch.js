@@ -185,7 +185,7 @@ let arch = {
                 val:keys['Udre'],
             },
             {
-                tag:'巫妖王',
+                tag:'巫妖',
                 tip:'',
                 ico:[3,1],
                 pos:[3,3],

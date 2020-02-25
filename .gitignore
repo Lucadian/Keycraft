@@ -434,3 +434,10 @@ build/Keycraft 1.2/v8_context_snapshot.bin
 build/Keycraft 1.2/魔兽3重制版自定义按键 V1.2.exe
 build/package.json
 build/打包命令.txt
+build/app/main/asset/keys.js
+build/app/main/asset/maps.js
+build/app/main/asset/origin.txt
+build/app/main/asset/tips.js
+build/Keycraft 1.2/notification_helper.exe
+build/Keycraft 1.2/魔兽3重制版自定义按键.exe
+build/nw.exe

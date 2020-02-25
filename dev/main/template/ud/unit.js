@@ -220,7 +220,7 @@ let unit = {
             {
                 tag:'蛛网',
                 tip:'',
-                ico:[6,2],
+                ico:[6,5],
                 pos:[1,3],
                 key:['Aweb'],
                 val:keys['Aweb'],

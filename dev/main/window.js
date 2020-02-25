@@ -48,6 +48,7 @@ function save(quitAfterSave){
         let str = '\r\n' + tips[key] //添加注释
             str += '\r\n[' + key + ']' //添加技能名字
 
+        console.log(key)
         let arr = maps[key]
         for(let i=0;i<arr.length;i++){ //添加 hotkey unhotkey 什么的
             if(arr[i] === arr[i-1])
@@ -58,7 +59,6 @@ function save(quitAfterSave){
 
         CustomKeys += str
     }
-
     fs.writeFileSync(path,CustomKeys)
     pot.saving = false
     pot.saved = true

@@ -37,10 +37,18 @@ function archive(){
 
 
 function remap(key,val){
+    console.log(key)
     pot.saved = false
     let path = storage + '/keys.js'
     let keys = require(path)
-    keys[key] = val
+    if(key.includes(',')){
+        key = key.split(',')
+        for(let i=0;i<key.length;i++)
+            keys[key[i]] = val
+    }
+    else{
+        keys[key] = val
+    }
     fs.writeFileSync(path, 'module.exports = ' + JSON.stringify(keys))
 }
 

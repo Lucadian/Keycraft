@@ -5,10 +5,10 @@ if(!fs.existsSync(storage)){
 
     mkdirsSync(storage)
 
-    let files = fs.readdirSync('config')
+    let files = fs.readdirSync('main/asset')
 
     files.forEach((file)=>{
-        fs.copyFileSync('config/' + file,storage + '/' + file)
+        fs.copyFileSync('main/asset/' + file,storage + '/' + file)
     })
 
     let defaultPathStr = (os.homedir() + '/Documents/Warcraft III/CustomKeyBindings').replace(/\\/g,"/")
