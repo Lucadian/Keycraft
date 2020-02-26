@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "serv": "parcel index.html",
+    "parc": "parcel build index.html"
+  },
   "devDependencies": {
     "cssnano": "^4.1.10",
     "sass": "^1.25.0"

@@ -52,3 +52,4 @@ function remap(key,val){
     fs.writeFileSync(path, 'module.exports = ' + JSON.stringify(keys))
 }
 
+

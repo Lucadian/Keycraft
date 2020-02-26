@@ -211,31 +211,32 @@ div#infos{
 
   div.msg_bug{
     position: absolute;
-    bottom:40px;right: -16px;
+    bottom:40px;right: -17px;
     background-color: rgba(250,250,250,.1);
     width: 118px;height: 50px;
     text-align: center;line-height: 50px;
   }
   div.msg_reset{
     position: absolute;
-    bottom:40px;right: 51px;
+    bottom:40px;right: 58px;
     background-color: rgba(250,250,250,.1);
     width: 118px;height: 50px;
     text-align: center;line-height: 50px;
   }
   div.bug{
-    width: 59px;height: 35px;
+    width: 56px;height: 32px;
     position: absolute;bottom: -4px;right: 10px;
-    background-image: url("../../image/btn_bug_bg.png");
+    background-size: cover;
+    background-image: url("../../image/btn_info_bg.png");
     &::before{
-      color: #442d0c;
+      color: #2d1d07;
       text-shadow: none;
       font-size: 12px;
       text-align: center;line-height: 20px;
-      display: inline-block;content: 'BUG';
-      width: 37px;height: 18px;
-      background-image: url("../../image/btn_bug.png");
-      transform: translateX(11px) translateY(7px);
+      display: inline-block;content: 'INFO';
+      width: 44px;height: 20px;
+      background-image: url("../../image/btn_info.png");
+      transform: translateX(6px) translateY(6px);
       filter: brightness(1.1);
     }
     &:hover::before{
@@ -249,18 +250,19 @@ div#infos{
     }
   }
   div.reset{
-    width: 59px;height: 35px;
-    position: absolute;bottom: -4px;right: 80px;
-    background-image: url("../../image/btn_bug_bg.png");
+    width: 56px;height: 32px;
+    position: absolute;bottom: -4px;right: 88px;
+    background-size: cover;
+    background-image: url("../../image/btn_info_bg.png");
     &::before{
-      color: #442d0c;
+      color: #2d1d07;
       text-shadow: none;
       font-size: 12px;
       text-align: center;line-height: 20px;
-      display: inline-block;content: 'RES';
-      width: 37px;height: 18px;
-      background-image: url("../../image/btn_bug.png");
-      transform: translateX(11px) translateY(7px);
+      display: inline-block;content: 'RSET';
+      width: 44px;height: 20px;
+      background-image: url("../../image/btn_info.png");
+      transform: translateX(6px) translateY(6px);
       filter: brightness(1.1);
     }
     &:hover::before{

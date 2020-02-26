@@ -7,7 +7,8 @@ let pot = {
     saving:false,
     bugPage:0,
     tempWin:null,
-    path:''
+    path :'',
+    anch :null,
 }
 
 function closeWindow(){
@@ -66,27 +67,45 @@ function save(quitAfterSave){
         quit()
     }
 }
-
 function openBugPage(){
-    if(pot.tempWin)
+
+    if(pot.tempWin){
         pot.tempWin.close(true)
+    }
 
     nw.Window.open(
         'https://open-source-keycraft.obs-website.cn-east-3.myhuaweicloud.com?_=' + Date.now(),
         {
-            "title": "BUG反馈",
-            "icon": "dev/img/icon_fav.ico",
-            "frame": true,
+            "title": "Keycraft",
+            "icon": "img/icon_fav.ico",
             "width": 750,
             "height": 500,
             "position": "center",
-            "min_width": 300,
-            "min_height": 150,
+            "max_width": 750,
+            "max_height": 500,
         },
         (new_win)=>{
             pot.tempWin = new_win
+
+            new_win.on('loaded',()=>{
+                pot.anch = new_win.window.document.getElementById('anchor')
+                let href = new_win.window.document.getElementById('href').innerText
+                pot.anch.onclick = function(){
+                    let gui = require('nw.gui')
+                    gui.Shell.openExternal(href)
+                }
+            })
         }
     )
+    // alert(111)
+    // pot.anch = document.getElementById('anchor')
+    // console.log(pot.anch)
+    // pot.anch.onclick = function(){
+    //     alert(222)
+    //     let hre = "https://pan.baidu.com/s/1pAg-iMgkmOqzPJ-xI3s7Kg"
+    //     require('nw.gui').Shell.openExternal(hre)
+    // }
+
 
 }
 
